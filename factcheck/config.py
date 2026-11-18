@@ -19,12 +19,12 @@ SHOW_NAME = os.environ.get("SHOW_NAME", "Candace")
 EXPECTED_FEED_TITLE = os.environ.get("EXPECTED_FEED_TITLE", "Candace")
 
 # Claude
-MODEL = os.environ.get("FACTCHECK_MODEL", "claude-opus-5-5")
-EXTRACT_EFFORT = os.environ.get("EXTRACT_EFFORT", "medium")
-VERIFY_EFFORT = os.environ.get("VERIFY_EFFORT", "high")
-MAX_SEARCHES_PER_CLAIM = int(os.environ.get("MAX_SEARCHES_PER_CLAIM", "8"))
-MAX_CLAIMS_PER_EPISODE = int(os.environ.get("MAX_CLAIMS_PER_EPISODE", "25"))
-VERIFY_CONCURRENCY = int(os.environ.get("VERIFY_CONCURRENCY", "4"))
+MODEL = os.environ.get("FACTCHECK_MODEL") or "claude-opus-5-5"
+EXTRACT_EFFORT = os.environ.get("EXTRACT_EFFORT") or "medium"
+VERIFY_EFFORT = os.environ.get("VERIFY_EFFORT") or "high"
+MAX_SEARCHES_PER_CLAIM = int(os.environ.get("MAX_SEARCHES_PER_CLAIM") or "8")
+MAX_CLAIMS_PER_EPISODE = int(os.environ.get("MAX_CLAIMS_PER_EPISODE") or "25")
+VERIFY_CONCURRENCY = int(os.environ.get("VERIFY_CONCURRENCY") or "4")
 
 # Transcript chunking for claim extraction (seconds)
 CHUNK_SECONDS = 15 * 60

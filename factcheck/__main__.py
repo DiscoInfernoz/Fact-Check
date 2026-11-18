@@ -12,7 +12,7 @@ import logging
 import os
 import sys
 
-from . import config, discover, extract, site, storage, transcribe, verify
+from . import config, discover, extract, llm, site, storage, transcribe, verify
 
 log = logging.getLogger("factcheck")
 
@@ -58,6 +58,14 @@ def process(episode_id: str | None, limit: int | None) -> int:
             bad = sum(1 for c in rec.claims if c.error)
             failed_claims += bad
             rows.append(f"| {rec.episode.published} | {rec.episode.title} | {ok} | {bad} | |")
+        except llm.OutOfCredits:
+            storage.save_record(rec)
+            errors += 1
+            log.error("Anthropic API credit balance is too low. Stopping; finished work is saved.")
+            rows.append(f"| {rec.episode.published} | {rec.episode.title} | "
+                        f"{sum(1 for c in rec.claims if c.verification)} | | **Out of Anthropic API credits.** "
+                        "Add credit at console.anthropic.com → Billing; the rest is picked up on the next run. |")
+            break
         except Exception as e:
             errors += 1
             log.exception("Episode failed: %s", rec.episode.id)

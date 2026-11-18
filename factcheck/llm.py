@@ -21,6 +21,14 @@ class ClaudeRefusal(RuntimeError):
     pass
 
 
+class OutOfCredits(RuntimeError):
+    """The Anthropic account has no credit left; every further call would fail too."""
+
+
+def is_out_of_credits(exc: Exception) -> bool:
+    return "credit balance is too low" in str(exc).lower()
+
+
 def client() -> anthropic.Anthropic:
     global _client
     if _client is None:

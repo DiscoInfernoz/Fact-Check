@@ -147,3 +147,29 @@ def test_run_summary_and_exit_code(tmp_data, monkeypatch):
     assert cli.main(["discover", "--feed", str(FIX / "feed.xml")]) == 1
     text = summary.read_text()
     assert "https://discoinfernoz.github.io/Fact-Check/" in text and "wrong podcast" in text
+
+
+def test_out_of_credits_stops_and_reports(tmp_data, monkeypatch):
+    import anthropic
+    from factcheck import __main__ as cli
+    calls = []
+
+    def stream(**kw):
+        calls.append(1)
+        raise anthropic.APIStatusError(
+            "Your credit balance is too low to access the Anthropic API.",
+            response=__import__("httpx").Response(400, request=__import__("httpx").Request("POST", "https://x")),
+            body=None)
+
+    monkeypatch.setattr(llm, "_client", NS(beta=NS(messages=NS(stream=stream))))
+    monkeypatch.setattr(config, "VERIFY_CONCURRENCY", 1)
+    ep = Episode(id="e1", title="T", published="2026-11-10", audio_url="https://x/a.mp3")
+    claims = [CheckedClaim(id=f"c{i}", quote="q", claim="c", speaker="A", start_seconds=10,
+                           category="history", checkworthiness=5) for i in range(5)]
+    storage.save_record(EpisodeRecord(episode=ep, status="extracted", claims=claims))
+    storage.save_transcript("e1", {"utterances": []})
+    summary = tmp_data / "summary.md"
+    monkeypatch.setenv("GITHUB_STEP_SUMMARY", str(summary))
+    assert cli.process(None, None) == 1
+    assert len(calls) < 5  # stopped early instead of trying every claim (a worker may already have started the next one)
+    assert "Out of Anthropic API credits" in summary.read_text()

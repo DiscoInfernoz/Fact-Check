@@ -63,6 +63,8 @@ def verify_claim(episode: Episode, claim: CheckedClaim, transcript: dict) -> Che
         claim.model = resp.model
         claim.error = None
     except Exception as e:  # keep going; the claim is retried on the next run
+        if llm.is_out_of_credits(e):
+            raise llm.OutOfCredits(str(e)) from e
         log.exception("Verification failed for %s/%s", episode.id, claim.id)
         claim.error = f"{type(e).__name__}: {e}"[:300]
     claim.checked_at = storage.now_iso()
@@ -73,7 +75,14 @@ def verify_all(episode: Episode, claims: list[CheckedClaim], transcript: dict, o
     todo = [c for c in claims if c.verification is None]
     log.info("Verifying %d claim(s) for %s", len(todo), episode.title)
     with ThreadPoolExecutor(max_workers=config.VERIFY_CONCURRENCY) as pool:
-        for c in pool.map(lambda c: verify_claim(episode, c, transcript), todo):
-            if on_done:
-                on_done(c)
+        futures = [pool.submit(verify_claim, episode, c, transcript) for c in todo]
+        try:
+            for f in futures:
+                c = f.result()
+                if on_done:
+                    on_done(c)
+        except llm.OutOfCredits:
+            for f in futures:
+                f.cancel()  # don't start the rest; in-flight ones finish and are saved by the caller
+            raise
     return claims

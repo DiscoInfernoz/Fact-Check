@@ -35,7 +35,9 @@ python -m factcheck build && python -m http.server -d site 8000
 Other commands: `discover --backfill N`, `process [--episode ID] [--max-episodes N]`, `build`.
 Every stage saves its progress, so re-running only does unfinished work. Failed claims are retried on the next run.
 
-## Settings (environment variables)
+## Settings
+
+Set these as repository *variables* (Settings → Secrets and variables → Actions → Variables) to change them without editing code. Leave a variable unset to use the default.
 
 | Variable | Default | |
 |---|---|---|
