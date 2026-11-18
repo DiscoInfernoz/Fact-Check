@@ -22,7 +22,9 @@ VERDICT_ORDER: list[str] = [
 
 
 class _Strict(BaseModel):
-    model_config = ConfigDict(extra="forbid")
+    # The JSON schema sent to Claude forbids extra keys (llm.json_schema adds that);
+    # when parsing we ignore any that slip through instead of discarding the answer.
+    model_config = ConfigDict(extra="ignore")
 
 
 # ---------- Claude structured outputs ----------
@@ -51,17 +53,17 @@ ExtractionResult.model_rebuild()
 
 class Source(_Strict):
     url: str
-    title: str
-    publisher: str
-    excerpt: str = Field(description="Short relevant excerpt from the source (under 50 words).")
+    title: str = ""
+    publisher: str = ""
+    excerpt: str = Field(default="", description="Short relevant excerpt from the source (under 50 words).")
 
 
 class VerificationResult(_Strict):
     verdict: Verdict
     confidence: Literal["high", "medium", "low"]
-    explanation: str = Field(description="At most 120 words, neutral tone.")
-    what_is_true: str = Field(description="One or two sentences stating what the evidence does support.")
-    sources: list[Source]
+    explanation: str = Field(default="", description="At most 120 words, neutral tone.")
+    what_is_true: str = Field(default="", description="One or two sentences stating what the evidence does support.")
+    sources: list[Source] = []
 
 
 # ---------- Stored records ----------

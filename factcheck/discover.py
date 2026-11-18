@@ -2,10 +2,8 @@
 from __future__ import annotations
 
 import hashlib
-import json
 import logging
 import time
-import urllib.request
 
 import feedparser
 
@@ -16,17 +14,6 @@ log = logging.getLogger(__name__)
 UA = "podcast-factcheck/0.1 (+https://github.com)"
 
 
-def resolve_feed_url() -> str:
-    if config.FEED_URL:
-        return config.FEED_URL
-    url = f"https://itunes.apple.com/lookup?id={config.APPLE_PODCAST_ID}&entity=podcast"
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        results = json.load(resp).get("results", [])
-    if not results or not results[0].get("feedUrl"):
-        raise RuntimeError(f"No feed URL found for Apple Podcasts id {config.APPLE_PODCAST_ID}; set FEED_URL.")
-    log.info("Resolved feed for %r: %s", results[0].get("collectionName"), results[0]["feedUrl"])
-    return results[0]["feedUrl"]
 
 
 def _duration(entry) -> int | None:
@@ -43,9 +30,17 @@ def _duration(entry) -> int | None:
     return secs
 
 
-def parse_feed(source: str) -> list[Episode]:
+def parse_feed(source: str, expected_title: str | None = None) -> list[Episode]:
     """`source` is a URL or a local path / raw XML string (used by tests)."""
     feed = feedparser.parse(source, agent=UA)
+    title = feed.feed.get("title", "")
+    if not feed.entries:
+        raise RuntimeError(f"Feed {source!r} has no episodes (error: {feed.get('bozo_exception')})")
+    if expected_title and expected_title.lower() not in title.lower():
+        raise RuntimeError(
+            f"Feed title {title!r} doesn't contain {expected_title!r}; this looks like the wrong podcast. "
+            "Set the FEED_URL repository variable to the right feed (or EXPECTED_FEED_TITLE if the title changed).")
+    log.info("Feed: %r (%s)", title, source)
     episodes: list[Episode] = []
     for e in feed.entries:
         audio = next((l.href for l in e.get("links", []) if l.get("rel") == "enclosure"), None)
@@ -72,7 +67,7 @@ def parse_feed(source: str) -> list[Episode]:
 
 def discover(backfill: int, feed_source: str | None = None) -> list[EpisodeRecord]:
     """Register the newest `backfill` episodes that aren't stored yet. Returns new records."""
-    episodes = parse_feed(feed_source or resolve_feed_url())
+    episodes = parse_feed(feed_source or config.FEED_URL, config.EXPECTED_FEED_TITLE)
     log.info("Feed has %d episodes", len(episodes))
     new: list[EpisodeRecord] = []
     for ep in episodes[:backfill]:

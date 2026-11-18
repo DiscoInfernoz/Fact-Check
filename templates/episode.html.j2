@@ -46,7 +46,7 @@
       <summary>{{ v.sources|length }} source{{ "s" if v.sources|length != 1 }}</summary>
       <ul class="sources">
       {% for s in v.sources %}
-        <li><a href="{{ s.url }}" rel="nofollow noopener">{{ s.title }}</a> <span class="muted small">— {{ s.publisher or (s.url|domain) }}</span>
+        <li><a href="{{ s.url }}" rel="nofollow noopener">{{ s.title or (s.url|domain) }}</a> <span class="muted small">— {{ s.publisher or (s.url|domain) }}</span>
           {% if s.excerpt %}<p class="excerpt">“{{ s.excerpt }}”</p>{% endif %}</li>
       {% endfor %}
       </ul>

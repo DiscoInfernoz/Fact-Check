@@ -16,8 +16,10 @@ Each claim on the site shows the exact quote, a timestamp link into the audio, t
    - `ANTHROPIC_API_KEY`: from console.anthropic.com
    - `ASSEMBLYAI_API_KEY`: from assemblyai.com
 3. **Turn on Pages**: Settings → Pages → Source: *GitHub Actions*.
-4. **Optional:** set a repository *variable* `FEED_URL` to the podcast's RSS URL. If you don't, the feed is looked up from Apple Podcasts ID `1725552624` (change it with `APPLE_PODCAST_ID`). **Confirm the first run picked up the right show**, because several podcasts use similar names.
+4. **Feed:** the default feed is `https://feeds.megaphone.fm/candace`. To use a different one, set a repository *variable* `FEED_URL`. A run stops with an error if the feed's title doesn't contain "Candace", so a wrong feed can't be checked by mistake.
 5. Actions → *Fact-check episodes* → **Run workflow** with `backfill: 3`, `max_episodes: 3` for a first test.
+
+**Where to see results:** each run's page in the Actions tab starts with a summary: the site link, each episode, how many claims were checked, and any errors. A red ❌ run means something failed; work finished before the failure is still saved and published, and the rest is retried the next day. The site is at `https://<your-username>.github.io/<repo-name>/` (for this repo, https://discoinfernoz.github.io/Fact-Check/).
 
 After that it runs every day, checks new episodes and redeploys the site. For a bigger backfill, run it manually with e.g. `backfill: 50`. Each run processes at most `max_episodes` and the daily runs work through the rest, so no single run hits the 6-hour job limit.
 

@@ -19,7 +19,8 @@ def tmp_data(tmp_path, monkeypatch):
     return tmp_path
 
 
-def test_parse_feed_and_discover_is_idempotent():
+def test_parse_feed_and_discover_is_idempotent(monkeypatch):
+    monkeypatch.setattr(config, "EXPECTED_FEED_TITLE", "test show")
     eps = discover.parse_feed(str(FIX / "feed.xml"))
     assert [e.title for e in eps] == ["Episode Two: The Sequel", "Episode One"]
     assert eps[0].duration_seconds == 3723 and eps[1].duration_seconds == 3600
@@ -120,3 +121,29 @@ def test_site_build(tmp_data):
     assert "A &lt;script&gt; title" in index and "<script> title" not in index
     assert "▶ 1:15" in page and "1 more claim(s) still being checked" in page
     assert 'href="../static/style.css"' in page
+
+
+def test_wrong_feed_is_rejected(monkeypatch):
+    monkeypatch.setattr(config, "EXPECTED_FEED_TITLE", "Candace")
+    with pytest.raises(RuntimeError, match="wrong podcast"):
+        discover.discover(5, str(FIX / "feed.xml"))
+    assert storage.all_records() == []
+
+
+def test_sources_missing_title_or_extra_keys_are_accepted():
+    v = VerificationResult.model_validate({
+        "verdict": "Accurate", "confidence": "high", "explanation": "e", "what_is_true": "t", "surprise": 1,
+        "sources": [{"url": "https://a.org/x", "excerpt": "x"}],
+    })
+    assert v.sources[0].title == "" and v.sources[0].publisher == ""
+
+
+def test_run_summary_and_exit_code(tmp_data, monkeypatch):
+    summary = tmp_data / "summary.md"
+    monkeypatch.setenv("GITHUB_STEP_SUMMARY", str(summary))
+    monkeypatch.setenv("GITHUB_REPOSITORY", "DiscoInfernoz/Fact-Check")
+    from factcheck import __main__ as cli
+    monkeypatch.setattr(config, "EXPECTED_FEED_TITLE", "Candace")
+    assert cli.main(["discover", "--feed", str(FIX / "feed.xml")]) == 1
+    text = summary.read_text()
+    assert "https://discoinfernoz.github.io/Fact-Check/" in text and "wrong podcast" in text

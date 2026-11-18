@@ -12,11 +12,11 @@ TEMPLATES_DIR = ROOT / "templates"
 STATIC_DIR = ROOT / "static"
 PROMPTS_DIR = Path(__file__).resolve().parent / "prompts"
 
-# Podcast feed. Set FEED_URL directly, or leave it empty and the feed URL is
-# looked up from Apple Podcasts using APPLE_PODCAST_ID.
-FEED_URL = os.environ.get("FEED_URL", "")
-APPLE_PODCAST_ID = os.environ.get("APPLE_PODCAST_ID", "1725552624")
+# Podcast feed. `or` so an empty FEED_URL variable in CI still falls back to the default.
+FEED_URL = os.environ.get("FEED_URL") or "https://feeds.megaphone.fm/candace"
 SHOW_NAME = os.environ.get("SHOW_NAME", "Candace")
+# Safety check: the feed's title must contain this text, so a wrong feed fails loudly.
+EXPECTED_FEED_TITLE = os.environ.get("EXPECTED_FEED_TITLE", "Candace")
 
 # Claude
 MODEL = os.environ.get("FACTCHECK_MODEL", "claude-opus-5-5")

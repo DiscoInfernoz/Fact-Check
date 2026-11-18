@@ -9,9 +9,10 @@ from __future__ import annotations
 
 import argparse
 import logging
+import os
 import sys
 
-from . import discover, extract, site, storage, transcribe, verify
+from . import config, discover, extract, site, storage, transcribe, verify
 
 log = logging.getLogger("factcheck")
 
@@ -49,14 +50,43 @@ def process(episode_id: str | None, limit: int | None) -> int:
     pending.sort(key=lambda r: r.episode.published, reverse=True)  # newest first
     if limit:
         pending = pending[:limit]
-    errors = 0
+    rows, failed_claims, errors = [], 0, 0
     for rec in pending:
         try:
             process_episode(rec)
-        except Exception:
+            ok = sum(1 for c in rec.claims if c.verification)
+            bad = sum(1 for c in rec.claims if c.error)
+            failed_claims += bad
+            rows.append(f"| {rec.episode.published} | {rec.episode.title} | {ok} | {bad} | |")
+        except Exception as e:
             errors += 1
             log.exception("Episode failed: %s", rec.episode.id)
-    return 1 if errors and errors == len(pending) else 0
+            rows.append(f"| {rec.episode.published} | {rec.episode.title} | | | {type(e).__name__}: {str(e)[:150]} |")
+    write_summary(rows, failed_claims, errors)
+    # A red run in the Actions tab means something needs a look; work done so far is still saved.
+    return 1 if (errors or failed_claims) else 0
+
+
+def write_summary(rows: list[str], failed_claims: int, errors: int) -> None:
+    """Markdown summary shown on the workflow run's page in GitHub."""
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not path:
+        return
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    owner, _, name = repo.partition("/")
+    lines = ["## Fact-check run", ""]
+    if owner:
+        lines += [f"**Site:** https://{owner.lower()}.github.io/{name}/", ""]
+    lines += [f"Feed: {config.FEED_URL}", ""]
+    if rows:
+        lines += ["| Published | Episode | Claims checked | Claims failed | Error |", "|---|---|---|---|---|", *rows, ""]
+    else:
+        lines += ["No new or unfinished episodes this run.", ""]
+    if failed_claims or errors:
+        lines += ["Failed items are retried automatically on the next run. "
+                  "Open the *Discover and check episodes* step's log for details."]
+    with open(path, "a") as f:
+        f.write("\n".join(lines) + "\n")
 
 
 def main(argv=None) -> int:
@@ -78,7 +108,12 @@ def main(argv=None) -> int:
 
     code = 0
     if args.cmd in ("run", "discover"):
-        discover.discover(args.backfill, args.feed)
+        try:
+            discover.discover(args.backfill, args.feed)
+        except Exception as e:
+            log.error("Could not read the podcast feed: %s", e)
+            write_summary([f"| | | | | Feed problem: {str(e)[:300]} |"], 0, 1)
+            return 1
     if args.cmd in ("run", "process"):
         code = process(args.episode, args.max_episodes)
     if args.cmd in ("run", "build"):
