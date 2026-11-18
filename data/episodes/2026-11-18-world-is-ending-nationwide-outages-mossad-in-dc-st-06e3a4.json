@@ -8,7 +8,7 @@
     "duration_seconds": 4190,
     "description": "Widespread reports of outages & cyber attacks, CNN reports Iran is developing plans for a bomb in DC after the Mossad chief meets with CIA, and is the state blocking Tyler Robinson’s team from accessing evidence?  \n\n\n00:00 - Start. \n00:45 - Widespread outages and cyberattacks. \n29:52 - Mossad in DC & CNN \"sources\" on Iran DC bomb threat. \n42:42 - State blocking Tyler Robinson’s team from accessing evidence?\n01:00:15 - Comments. \n\n\nPROLIFE Across AMERICA​​ \nDonate today and sponsor a billboard at http://www.PROLIFEAcrossAMERICA.org/Candace\n\nNimi Skincare​       ​\nGet 10% off your order with promo code BARON at http://www.NimiSkincare.com\n\nAmerican Financing​     ​\nNMLS 182334, http://www.nmlsconsumeraccess.org. Visit http://www.AmericanFinancing.net/Owens or call 800-795-1210. Average savings based on borrowers who save over $199.99.\n\nZeroGhost​   \nVisit http://www.ZeroGhost.com/Candace and use code CANDACE for $50 off your order. \n\nCandace Clips Channel: https://www.youtube.com/@ClipsCandaceOwens\nCandace Official Website: https://candaceowens.com\nCandace Merch: https://shop.candaceowens.com\nCandace on Apple Podcasts: https://t.co/Pp5VZiLXbq\nCandace on Spotify: https://t.co/16pMuADXuT\nCandace on Rumble: https://rumble.com/c/RealCandaceO\nCandace en Español: https://www.youtube.com/@CandaceOwensEnEspanol\nCandace Owens em Português: https://www.youtube.com/@CandaceOwensemPortugues\nCandace Owens en Français: https://www.youtube.com/@CandaceOwensEnFrançais\nLearn more about your ad choices. Visit megaphone.fm/adchoices"
   },
-  "status": "extracted",
+  "status": "verified",
   "claims": [
     {
       "id": "c01",
@@ -405,10 +405,41 @@
       "start_seconds": 28,
       "category": "current_events",
       "checkworthiness": 4,
-      "verification": null,
-      "error": "APIStatusError: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3k8q5enutN7ewjHK5k'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:39+00:00"
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "On November 16, 2026, TechCrunch ran the headline \"FBI says Artex AI open source hacking tool used to breach networks in 'under three hours.'\" \"RTX\" in the transcript is almost certainly a mistranscription of \"Artex\" (styled ARTEX). The article was based on an FBI FLASH advisory dated November 13. It said Artex-linked attacks can move from targeting a system to active compromise \"in under three hours\" in some cases. The quote matches what was reported. Two details add context: the three-hour figure describes some cases, not all, and the developer has since made the tool closed-source, though the FBI says the older open-source version still circulates. None of these reports ties Artex to the outages discussed earlier in the episode.",
+        "what_is_true": "TechCrunch reported that an FBI flash advisory warned that hackers used Artex, an open-source AI penetration-testing tool, to compromise networks in \"under three hours\" in some cases. The tool has been linked to breaches at ConnectWise, Barracuda and South Korean banks.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+            "title": "",
+            "publisher": "TechCrunch",
+            "excerpt": "In some cases, Artex-linked attacks can move from targeting a system to active compromise \"in under three hours.\""
+          },
+          {
+            "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+            "title": "",
+            "publisher": "BleepingComputer",
+            "excerpt": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide"
+          },
+          {
+            "url": "https://www.cdomagazine.tech/us-federal-news-bureau/fbi-warns-ai-powered-hacking-tool-can-breach-networks-in-under-three-hours",
+            "title": "",
+            "publisher": "CDO Magazine",
+            "excerpt": "The FBI's November 13 flash advisory identifies ARTEX, an open-source, large language model-driven agentic platform, as a tool used by malicious actors to automate multiple stages of cyber intrusions"
+          },
+          {
+            "url": "https://www.techspot.com/news/114579-fbi-hackers-using-autonomous-ai-tool-break-networks.html",
+            "title": "",
+            "publisher": "TechSpot",
+            "excerpt": "Artex has been tied to breaches at ConnectWise, Barracuda and South Korean banks"
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:51:16+00:00"
     },
     {
       "id": "c11",
@@ -419,10 +450,47 @@
       "start_seconds": 28,
       "category": "current_events",
       "checkworthiness": 4,
-      "verification": null,
-      "error": "APIStatusError: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3kQ2d3jtgsy4xV55De'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:41+00:00"
+      "verification": {
+        "verdict": "Mostly accurate",
+        "confidence": "high",
+        "explanation": "A major global Microsoft 365 outage began on Thursday, November 12, 2026. Outlook, Teams and Copilot were all affected, and Microsoft reported the problem and apologized. The outage ran into November 13–14 and spanned two workdays. One detail is off: the headline the speaker quoted, \"Microsoft identifies issues leading to global Outlook outage,\" was an ABC News story from Monday, November 16. It was not a Thursday headline. That story covered Microsoft's root-cause explanation, a latent software defect. Microsoft also said Teams chats and meetings worked normally for most of the outage, and that Office apps recovered earlier than email. The speaker's later remark that nobody had an explanation is outside this claim. Microsoft did publicly say the outage was not a cyberattack.",
+        "what_is_true": "A global Microsoft 365 outage hit Outlook, Teams, Copilot and other services starting Thursday, November 12, 2026, and Microsoft publicly acknowledged it. The quoted headline came later, on November 16, when Microsoft explained the cause.",
+        "sources": [
+          {
+            "url": "https://abcnews.com/US/outlook-outage-cause-microsoft-reason-teams-down/story?id=138174626",
+            "title": "",
+            "publisher": "ABC News",
+            "excerpt": "Microsoft identifies issues leading to global Outlook outage... November 16, 2026... a combination of a 'latent defect,' increased load and lessened server capacity"
+          },
+          {
+            "url": "https://www.foxbusiness.com/technology/microsoft-reveals-hidden-bug-behind-global-outlook-microsoft-365-outage",
+            "title": "",
+            "publisher": "Fox Business",
+            "excerpt": "triggered a chain reaction during peak U.S. business hours Nov. 12... Teams chats and meetings worked normally for most of the outage... 'This was not a cyberattack or an issue caused by AI tooling'"
+          },
+          {
+            "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+            "title": "",
+            "publisher": "BleepingComputer",
+            "excerpt": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot... November 12, 2026"
+          },
+          {
+            "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+            "title": "",
+            "publisher": "CNBC",
+            "excerpt": "A Microsoft outage on Thursday and Friday affected users of services like Outlook, Teams and 365."
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/2026_Microsoft_outage",
+            "title": "",
+            "publisher": "Wikipedia",
+            "excerpt": "A major global Microsoft outage occurred from November 12 to 14, 2026. Problems were reported with numerous Microsoft 365 services, including Outlook, Teams, and Copilot."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:51:22+00:00"
     },
     {
       "id": "c12",
@@ -433,10 +501,16 @@
       "start_seconds": 28,
       "category": "current_events",
       "checkworthiness": 4,
-      "verification": null,
-      "error": "APIStatusError: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3kpLrQCfRMAEUiUW9Z'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:44+00:00"
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "I couldn't verify this claim. My web searches failed because the search tool hit its usage limit and returned no usable results. So I couldn't find any FAA statement, ground-stop notice or news report confirming a nationwide ground stop on Friday, November 13, 2026. I also couldn't confirm the wording of the notice the speaker described (\"extraordinary circumstances,\" \"reasons of safety\") or that the stop was later blamed on an upgrade that went wrong. The FAA has ordered nationwide ground stops before, including in January 2023 after a failure in its NOTAM system, but that doesn't confirm this event. A reviewer should check FAA advisories and news coverage from November 13–17, 2026.",
+        "what_is_true": "The FAA has the authority to order nationwide ground stops and has done so before, such as during the NOTAM system outage in January 2023. I found no evidence either confirming or contradicting the specific November 2026 ground stop or the reason the speaker says was given for it.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:51:22+00:00"
     },
     {
       "id": "c13",
@@ -447,10 +521,47 @@
       "start_seconds": 28,
       "category": "current_events",
       "checkworthiness": 4,
-      "verification": null,
-      "error": "APIStatusError: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3kx6gYY8inRATW6XcR'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:41+00:00"
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "On Monday, November 16, 2026, United Airlines replied to a customer on X. The post said: \"We sincerely apologize for the inconvenience. We're aware of the widespread system outage,\" and added that its teams were working to restore service. The co-host's reading matches the post. United later said the outage was resolved after about 90 minutes and that there was \"no indication that this was a cybersecurity-related issue.\" CNN, CBS, ABC, CNBC and NBC Chicago all reported that statement. The podcast's paraphrase is a little garbled: it says \"no indication this is any kind of an outage.\" But the substance of the claim, the X post and the denial of a cybersecurity cause, is correct.",
+        "what_is_true": "United posted on X on November 16, 2026, that it was aware of a widespread system outage, using the words quoted on the podcast. It later said there was no indication the outage was cybersecurity-related. The outage delayed departing flights for about 90 minutes.",
+        "sources": [
+          {
+            "url": "https://x.com/united/status/2122449364819886277",
+            "title": "",
+            "publisher": "United Airlines (X)",
+            "excerpt": "We sincerely apologize for the inconvenience. We're aware of the widespread system outage, and our teams are working hard to get things back up and running as soon as possible."
+          },
+          {
+            "url": "https://www.axios.com/2026/11/16/united-airlines-outage-faa",
+            "title": "",
+            "publisher": "Axios",
+            "excerpt": "\"We sincerely apologize for the inconvenience. We're aware of the widespread system outage...\" United Airlines wrote on X in reply to a customer."
+          },
+          {
+            "url": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
+            "title": "",
+            "publisher": "CNN",
+            "excerpt": "United said there is no indication that the outage was a cybersecurity-related issue."
+          },
+          {
+            "url": "https://www.nbcchicago.com/news/local/united-airlines-experiencing-widespread-system-outage/4017556/",
+            "title": "",
+            "publisher": "NBC Chicago",
+            "excerpt": "There is no indication that this was a cybersecurity-related issue."
+          },
+          {
+            "url": "https://www.cbsnews.com/news/united-airlines-system-outage-departing-flights/",
+            "title": "",
+            "publisher": "CBS News",
+            "excerpt": "The outage lasted about 90 minutes. … A United spokesperson said there's no indication the outage was related to a cybersecurity issue."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:51:15+00:00"
     },
     {
       "id": "c14",
@@ -461,10 +572,47 @@
       "start_seconds": 1350,
       "category": "biography",
       "checkworthiness": 4,
-      "verification": null,
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3mubQ3fx9giEnPFVd7'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:40+00:00"
+      "verification": {
+        "verdict": "False",
+        "confidence": "high",
+        "explanation": "There is no credible evidence that Bill Gates ever visited Jeffrey Epstein's private island, much less often. The flight logs that have been made public show him on Epstein's plane once, in March 2013, flying from Teterboro, New Jersey, to Palm Beach, Florida. FactCheck.org found earlier viral claims of repeated island trips baseless. The DOJ's 2026 document release and Gates's June 2026 House Oversight interview showed that Epstein invited him to the island, but there was no sign he accepted, and Gates said he never went. Melinda French Gates has said his ties to Epstein were one of several reasons for the divorce. Their meetings, not island trips, are what she pointed to.",
+        "what_is_true": "Gates met Epstein several times starting in 2011, flew on Epstein's plane once in 2013, and later called the relationship a mistake. Melinda French Gates has said his ties to Epstein were one factor in her decision to end their marriage.",
+        "sources": [
+          {
+            "url": "https://www.factcheck.org/2020/05/false-claim-targets-gates-using-epstein-connection/",
+            "title": "",
+            "publisher": "FactCheck.org",
+            "excerpt": "There's no evidence that Bill Gates ever visited Jeffrey Epstein's private island in the Caribbean... The March 2013 flight actually went from Teterboro Airport, in New Jersey, to Palm Beach International Airport in Florida."
+          },
+          {
+            "url": "https://www.cnn.com/2026/02/05/politics/kfile-gates-scrutiny-justice-department-documents",
+            "title": "",
+            "publisher": "CNN",
+            "excerpt": "Gates has maintained he never visited the island and there's no indication he accepted the invite."
+          },
+          {
+            "url": "https://www.pbs.org/newshour/politics/what-to-know-about-bill-gates-relationship-with-jeffrey-epstein-as-he-is-interviewed-in-house-probe",
+            "title": "",
+            "publisher": "PBS NewsHour",
+            "excerpt": "The disgraced financier invited Gates to his island several times but Gates declined, according to the transcript."
+          },
+          {
+            "url": "https://abcnews.com/US/unbelievable-sadness-melinda-french-gates-responds-latest-bill/story?id=129828894",
+            "title": "",
+            "publisher": "ABC News",
+            "excerpt": "French Gates has previously said that her ex-husband's association with Epstein was one factor of many that led her to seek divorce."
+          },
+          {
+            "url": "https://www.snopes.com/news/2026/02/05/melinda-bill-gates-epstein-divorce/",
+            "title": "",
+            "publisher": "Snopes",
+            "excerpt": "Melinda French Gates suggested Bill Gates' ties to Epstein contributed to divorce"
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:51:47+00:00"
     },
     {
       "id": "c15",
@@ -475,10 +623,16 @@
       "start_seconds": 1350,
       "category": "current_events",
       "checkworthiness": 4,
-      "verification": null,
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3mvSFP1hg5wx8zHnzw'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:40+00:00"
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "My web searches failed, so I couldn't check what officials said about the November 2026 outages. From background knowledge I can't confirm here, Jay Clayton chaired the SEC from 2017 to 2020 and became U.S. Attorney for the Southern District of New York in 2025. He was not Director of National Intelligence; Tulsi Gabbard was confirmed to that post in February 2025. If that was still true in November 2026, calling Clayton the DNI is probably wrong. However, I can't rule out a later change in the post, and I couldn't check whether Clayton, the DNI or another official said there was no evidence of a cyberattack. A reviewer should check this with sources.",
+        "what_is_true": "Based on my background knowledge, Jay Clayton is a real federal official, a former SEC chair who became U.S. Attorney for the Southern District of New York in 2025. He was not the Director of National Intelligence as of 2025. I couldn't confirm any statement from him about the outages.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:51:51+00:00"
     },
     {
       "id": "c16",
@@ -489,10 +643,41 @@
       "start_seconds": 1484,
       "category": "current_events",
       "checkworthiness": 4,
-      "verification": null,
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3mw8BZRBiuS97tq11k'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:40+00:00"
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "Several outlets and a White House release report that Director of National Intelligence Jay Clayton said this in a Fox Business interview on Tuesday, November 17, 2026. The White House quoted him word for word. He said officials saw no indicia of a coordinated cyberattack or of state-sponsored activity. Instead, he blamed the outages on institutions patching vulnerabilities and upgrading systems. On November 18, he repeated the point in testimony to the House Homeland Security Committee, where he said the outages were not a coordinated or state-sponsored attack. The claim correctly reflects what the official said. Whether his assessment is correct is a separate question that this check does not settle.",
+        "what_is_true": "Jay Clayton, the US Director of National Intelligence, publicly said in November 2026 that officials did not see signs of a coordinated cyberattack or state-sponsored activity behind the wave of tech outages. He attributed the outages to patching and system upgrades.",
+        "sources": [
+          {
+            "url": "https://www.whitehouse.gov/releases/2026/11/no-indication-of-a-cyberattack-dni-clayton-and-secretary-rubio-on-recent-tech-outages/",
+            "title": "",
+            "publisher": "The White House",
+            "excerpt": "DNI Clayton: \"We do not see the indicia of a coordinated cyberattack — let me just be clear about that — and we do not see the indicia of state-sponsored activity here.\""
+          },
+          {
+            "url": "https://www.foxbusiness.com/technology/jay-clayton-addresses-concerns-amid-widespread-tech-outages",
+            "title": "",
+            "publisher": "Fox Business",
+            "excerpt": "Director of National Intelligence Jay Clayton said Tuesday that officials see no signs of a coordinated cyberattack or state-sponsored activity behind a wave of technology outages, pointing instead to institutions installing security patches."
+          },
+          {
+            "url": "https://usnews.com/news/us/articles/2026-11-18/no-coordination-or-foreign-state-behind-recent-us-outages-clayton-says",
+            "title": "",
+            "publisher": "Reuters via U.S. News",
+            "excerpt": "Recent outages in the U.S. do not represent a coordinated or state-sponsored attack, U.S. Director of National Intelligence Jay Clayton said at a hearing on Wednesday."
+          },
+          {
+            "url": "https://www.koreaherald.com/article/10941144",
+            "title": "",
+            "publisher": "The Korea Herald",
+            "excerpt": "And we do not see the indicia of state-sponsored activity here. And we can be fairly confident in that,\" Clayton said."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:51:52+00:00"
     },
     {
       "id": "c17",
@@ -503,10 +688,47 @@
       "start_seconds": 1484,
       "category": "current_events",
       "checkworthiness": 4,
-      "verification": null,
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3mwitqcsmox2v5pt3K'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:40+00:00"
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "The claim is about what DNI Jay Clayton said, and the record backs it up. The White House published a transcript on November 18, 2026, quoting him saying that \"lots of institutions\" were patching newly identified vulnerabilities and taking systems down to upgrade them. In the same remarks he said some systems were \"not coming back as expected in all cases,\" and handoffs between systems were failing too. Fox Business, ABC News, Quartz and Nextgov reported the same explanation. Clayton was sworn in as DNI in August 2026, so the speaker is identified correctly. This check only confirms that he made the statement. It doesn't independently confirm what actually caused the outages, though Nextgov reported that officials gave Congress the same account.",
+        "what_is_true": "DNI Jay Clayton publicly said the November 2026 outages came from institutions patching and upgrading systems after vulnerabilities were found, and that some systems did not come back online as expected. He also said there was no sign of a coordinated or state-sponsored cyberattack.",
+        "sources": [
+          {
+            "url": "https://www.whitehouse.gov/releases/2026/11/no-indication-of-a-cyberattack-dni-clayton-and-secretary-rubio-on-recent-tech-outages/",
+            "title": "",
+            "publisher": "The White House",
+            "excerpt": "Lots of institutions, because these vulnerabilities have been identified, are patching. They're taking their systems down, they're upgrading them... they're not coming back as expected in all cases."
+          },
+          {
+            "url": "https://www.foxbusiness.com/technology/jay-clayton-addresses-concerns-amid-widespread-tech-outages",
+            "title": "",
+            "publisher": "Fox Business",
+            "excerpt": "Director of National Intelligence Jay Clayton says security patches after a PHP vulnerability caused system outages"
+          },
+          {
+            "url": "https://qz.com/trump-administration-tech-outages-not-cyberattack-111826",
+            "title": "",
+            "publisher": "Quartz",
+            "excerpt": "They said companies patching vulnerabilities and upgrading outdated systems caused them, according to the White House."
+          },
+          {
+            "url": "https://www.nextgov.com/cybersecurity/2026/11/security-officials-tell-congress-tech-outages-are-not-malicious/417312/",
+            "title": "",
+            "publisher": "Nextgov/FCW",
+            "excerpt": "Most of the broader outages across digital platforms over the last week appear to be linked to efforts to rapidly patch vulnerabilities with AI"
+          },
+          {
+            "url": "https://www.odni.gov/14064/pr-12-26/",
+            "title": "",
+            "publisher": "Office of the Director of National Intelligence",
+            "excerpt": "Jay Clayton was sworn in as the nation's ninth Director of National Intelligence"
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:51:56+00:00"
     },
     {
       "id": "c18",
@@ -517,10 +739,41 @@
       "start_seconds": 1599,
       "category": "current_events",
       "checkworthiness": 5,
-      "verification": null,
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3mxMbbKFeXuievBHqP'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:40+00:00"
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "Reports from around the time of the episode back up the figure. NBC News' 2026 Senate results page lists 56 Democratic seats and 44 Republican seats. Yahoo News, in an article updated November 18, 2026, said Mary Peltola's Alaska win gave Democrats their ninth Senate pickup and a 56–44 majority. Two caveats: the new senators won't take office until the next Congress begins in January 2027, and the 56 appears to count the two independents who caucus with Democrats. Before the election there were 45 Democrats and 2 independents, so nine flips adds up to 56. Neither caveat changes the speaker's point, and the speaker described the 56 seats as a result of the election.",
+        "what_is_true": "In the November 3, 2026 midterms, Democrats flipped nine Senate seats and won control of the chamber with 56 of 100 seats, counting allied independents, against 44 for Republicans. The new majority takes over in January 2027.",
+        "sources": [
+          {
+            "url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+            "title": "",
+            "publisher": "NBC News",
+            "excerpt": "2026 Senate Results: Democrats retake control... Democratic seats (Winner) 56 | Republican seats 44"
+          },
+          {
+            "url": "https://www.yahoo.com/news/politics/article/final-2026-midterm-election-results-democrats-clinch-56-seat-senate-majority-with-peltolas-alaska-win-what-they-can--and-cant--do-next-184618858.html",
+            "title": "",
+            "publisher": "Yahoo News",
+            "excerpt": "Democrats officially flipped their ninth U.S. Senate seat... the Democratic Party will boast its largest Senate majority since 2011, with 56 seats to the GOP's 44."
+          },
+          {
+            "url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+            "title": "",
+            "publisher": "CBS News",
+            "excerpt": "Democrats won control of the Senate in the 2026 elections, CBS News projects... Democratic candidates flipped seats in Maine, Iowa, Ohio and North Carolina."
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+            "title": "",
+            "publisher": "Wikipedia",
+            "excerpt": "Seats before: 45 (Democratic), 53 (Republican), 2 (Independent)... Elected Majority Leader TBD Democratic"
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:52:22+00:00"
     },
     {
       "id": "c19",
@@ -531,10 +784,41 @@
       "start_seconds": 1599,
       "category": "current_events",
       "checkworthiness": 4,
-      "verification": null,
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3my2mwrLLeXYWAqfAv'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:40+00:00"
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "Coverage of the November 3, 2026 midterms supports the claim. NBC News projected that Democrats would win control of the House, and called it the party's widest House margin in 33 years. CNBC and NBC reported that Democrats flipped Republican-held governorships in Texas, Georgia, Ohio, Iowa and Nevada, giving Democrats a majority of governors' offices for the first time since 2010. Yahoo News later reported that Democrats also flipped Alaska's governorship. That makes about six flips, which fits the speaker's loose phrase \"all kinds of governorships.\" This check covers only the House and governorship part of the quote. It does not assess the separate figure of 56 Senate seats, the claims about state legislatures, or the speaker's view that the election was a referendum on the Iran war.",
+        "what_is_true": "Republicans lost control of the U.S. House in the 2026 midterms. Democrats flipped at least five Republican-held governorships on Election Day (Texas, Georgia, Ohio, Iowa, Nevada), and outlets reported that Alaska flipped afterward.",
+        "sources": [
+          {
+            "url": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763",
+            "title": "",
+            "publisher": "NBC News",
+            "excerpt": "Democrats will take control of the House and the Senate in January, NBC News projects... Democrats have also flipped governorships in Texas, Georgia, Nevada, Ohio and Iowa."
+          },
+          {
+            "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html",
+            "title": "",
+            "publisher": "CNBC",
+            "excerpt": "Democrats flipped five Republican-held governorships Tuesday, including a stunning upset in Texas, to seize control of a majority of governors' mansions for the first time since 2010."
+          },
+          {
+            "url": "https://www.cnbc.com/2026/11/04/democrats-2026-midterm-election-results.html",
+            "title": "",
+            "publisher": "CNBC",
+            "excerpt": "Democrats have flipped seven Senate seats, nearly 30 House districts, five governorships and up to 12 state legislative chambers in a historic 2026 midterm rout."
+          },
+          {
+            "url": "https://www.yahoo.com/news/politics/article/lots-of-2026-midterm-races-havent-been-called-yet-heres-where-things-stand-right-now-235850171.html",
+            "title": "",
+            "publisher": "Yahoo News",
+            "excerpt": "Democrats flipped Alaska's governorship over the weekend."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:52:14+00:00"
     },
     {
       "id": "c20",
@@ -545,10 +829,41 @@
       "start_seconds": 1599,
       "category": "current_events",
       "checkworthiness": 4,
-      "verification": null,
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3myihJpJa1Zk72MYZs'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:41+00:00"
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "Axios reported on Friday, November 13, 2026, citing three sources, that Mossad Director Roman Gofman was in Washington for talks with senior Trump administration officials about the Iran war and was meeting CIA Director John Ratcliffe. Other outlets repeated the report. After the trip, the Times of Israel said Gofman had met Ratcliffe in Washington and then flown to Miami to see envoy Steve Witkoff. Reuters later reported that he used the meetings to press for a renewed strike on Iran. The podcast's spelling, \"Goffman,\" looks like a transcription variant of Gofman. The co-host's added point that the visit was \"unscheduled\" falls outside this check.",
+        "what_is_true": "Mossad Director Roman Gofman visited Washington on November 13, 2026, and met CIA Director John Ratcliffe to discuss Iran. He then traveled to Miami to meet White House envoy Steve Witkoff.",
+        "sources": [
+          {
+            "url": "https://www.axios.com/2026/11/13/mossad-israel-iran-war-netanyahu-pressures-trump",
+            "title": "",
+            "publisher": "Axios",
+            "excerpt": "Driving the news: Gofman is meeting with CIA Director John Ratcliffe, the sources said."
+          },
+          {
+            "url": "https://www.timesofisrael.com/liveblog_entry/mossad-chief-returns-from-us-after-meeting-ratcliffe-witkoff-on-iran-will-update-security-cabinet/",
+            "title": "",
+            "publisher": "The Times of Israel",
+            "excerpt": "During his trip, Gofman met with his American counterpart, CIA Director John Ratcliffe, in Washington, and then flew to Miami to meet with top White House envoy Steve Witkoff."
+          },
+          {
+            "url": "https://www.ynetnews.com/article/rj4sq9nrmx",
+            "title": "",
+            "publisher": "Ynetnews",
+            "excerpt": "According to Axios, Gofman met with CIA Director John Ratcliffe on Friday and is expected to travel to Miami for talks with White House envoy Steve Witkoff."
+          },
+          {
+            "url": "https://www.jpost.com/international/article-914818",
+            "title": "",
+            "publisher": "The Jerusalem Post",
+            "excerpt": "Mossad Director Gofman visits Washington, meets CIA director to discuss Iran war"
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:52:16+00:00"
     },
     {
       "id": "c21",
@@ -559,10 +874,35 @@
       "start_seconds": 1599,
       "category": "current_events",
       "checkworthiness": 4,
-      "verification": null,
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3mzQrucz2VdS3Bggow'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:41+00:00"
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "Axios ran a scoop dated November 13, 2026, under the headline \"Scoop: Israeli spy chief in D.C. as Netanyahu presses Trump to resume war.\" Its opening sentence matches the podcast quote almost word for word. It says Mossad director Roman Gofman was in Washington on Friday for talks with senior Trump administration officials about the Iran war, citing three sources with knowledge of the matter. The article also says Gofman met CIA Director John Ratcliffe and that Netanyahu was pressing Trump to resume the war. Anadolu Agency and Ynetnews reported the same details and credited Axios. These are Axios's sourced claims. The story's own sources are anonymous, but the podcast claim is only about what Axios reported, and that is accurate.",
+        "what_is_true": "On November 13, 2026, Axios reported, citing three sources, that Mossad director Roman Gofman was in Washington on Friday to discuss the Iran war with Trump officials, including CIA Director Ratcliffe, while Netanyahu pressed Trump to resume the war. Axios also reported that Trump had so far rejected that pressure.",
+        "sources": [
+          {
+            "url": "https://www.axios.com/2026/11/13/mossad-israel-iran-war-netanyahu-pressures-trump",
+            "title": "",
+            "publisher": "Axios",
+            "excerpt": "The director of the Israeli spy agency Mossad is in Washington Friday for talks with senior Trump administration officials about the war in Iran, according to three sources with knowledge of the matter."
+          },
+          {
+            "url": "https://www.aa.com.tr/en/americas/mossad-chief-visits-washington-as-israel-presses-trump-to-resume-iran-war-report/4124702",
+            "title": "",
+            "publisher": "Anadolu Agency",
+            "excerpt": "Roman Gofman meets CIA Director Ratcliffe, expected to hold talks with US envoy Witkoff in Miami, Axios reports"
+          },
+          {
+            "url": "https://www.ynetnews.com/article/rj4sq9nrmx",
+            "title": "",
+            "publisher": "Ynetnews",
+            "excerpt": "Gofman was sent to Washington as part of Netanyahu's efforts to persuade the U.S. president to resume the offensive, Axios reported, citing three sources familiar with the matter."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:52:16+00:00"
     },
     {
       "id": "c22",
@@ -573,10 +913,29 @@
       "start_seconds": 1599,
       "category": "current_events",
       "checkworthiness": 4,
-      "verification": null,
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3n163pYuGVFWpz2YYK'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:41+00:00"
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "CNN ran an exclusive on November 16, 2026, with the exact headline the speaker read aloud. The story, citing seven US officials, said new US intelligence indicates Iran is developing plans to target senior Trump administration officials by detonating a dirty bomb or a chemical weapon in Washington, DC. CNN also aired a segment on the report on OutFront. The article noted that officials were still debating whether Iran can or will carry out such a plot. The speaker said the report came out \"just yesterday.\" The episode was published November 18, so that timing fits if the show was recorded on November 17. The speaker's view that the intelligence came from Israel is his own opinion and is not part of this claim.",
+        "what_is_true": "CNN reported, citing seven US officials, that new US intelligence indicates Iran is developing plans to potentially detonate a dirty bomb or chemical weapon in Washington, DC. CNN also said officials were still debating whether Iran can or will carry out such a plot.",
+        "sources": [
+          {
+            "url": "https://www.cnn.com/2026/11/16/politics/us-intelligence-iran-dirty-bomb",
+            "title": "",
+            "publisher": "CNN",
+            "excerpt": "New US intelligence indicates that Iran is developing plans to target senior Trump administration officials by detonating a so-called dirty bomb or a chemical weapon in Washington, DC... according to seven US officials."
+          },
+          {
+            "url": "https://www.cnn.com/2026/11/16/world/video/ebof-katie-bo-lillis-iran-dc-dirty-bomb-plot",
+            "title": "",
+            "publisher": "CNN (OutFront video)",
+            "excerpt": "In a CNN exclusive, new U.S. intelligence indicates Iran is developing plans to target senior Trump administration officials."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:52:34+00:00"
     },
     {
       "id": "c23",
@@ -587,10 +946,29 @@
       "start_seconds": 1599,
       "category": "current_events",
       "checkworthiness": 4,
-      "verification": null,
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3n19GPANvSpcMSEGiA'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:41+00:00"
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "On Nov. 13, 2026, Axios published a scoop headlined \"Israeli spy chief in D.C. as Netanyahu presses Trump to resume war.\" Its \"Why it matters\" section uses nearly the same words the co-host read on air: the visit by Mossad director Roman Gofman \"comes as the Israeli prime minister is pressing President Trump to resume the war against Iran.\" The other details the co-host quoted also match the article: three sources, a meeting with CIA Director John Ratcliffe, and the Friday visit. One thing he left out is that Axios also said Trump had so far turned down Netanyahu's pressure to go back to combat. Since the claim is only about what Axios reported, that doesn't change the verdict.",
+        "what_is_true": "Axios reported on Nov. 13, 2026, that Netanyahu was pressing Trump to resume the war against Iran while Mossad director Roman Gofman was in Washington for talks with CIA Director Ratcliffe. Axios added that Trump had so far rejected that pressure.",
+        "sources": [
+          {
+            "url": "https://www.axios.com/2026/11/13/mossad-israel-iran-war-netanyahu-pressures-trump",
+            "title": "",
+            "publisher": "Axios",
+            "excerpt": "The visit by Roman Gofman, one of Benjamin Netanyahu's closest confidants, comes as the Israeli prime minister is pressing President Trump to resume the war against Iran."
+          },
+          {
+            "url": "https://www.axios.com/2026/11/13/mossad-israel-iran-war-netanyahu-pressures-trump",
+            "title": "",
+            "publisher": "Axios",
+            "excerpt": "State of play: Trump has so far rejected pressure from Netanyahu to return to combat. The two discussed the Iran war during a Nov. 5 call, per a U.S. official."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:52:36+00:00"
     },
     {
       "id": "c24",
@@ -601,10 +979,47 @@
       "start_seconds": 2254,
       "category": "current_events",
       "checkworthiness": 4,
-      "verification": null,
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3n13Kho6ePku3VMk5T'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:41+00:00"
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "CNN did publish this exclusive on November 16, 2026. The story was written by Katie Bo Lillis, Zachary Cohen and Natasha Bertrand, and Jake Tapper read the same lead on air. The article says new US intelligence indicates Iran is developing plans to target senior Trump administration officials with a dirty bomb or chemical weapon in Washington, DC, according to seven US officials. Other outlets reported the story the same way, including Newsweek, Time, Al Jazeera and the Jerusalem Post. This confirms what CNN reported, not that the plot is real. CNN's sources said there was no sign of an imminent attack and that officials disagreed about whether Iran could or would carry it out. The White House said there were no credible threats, and Iran's Foreign Ministry denied the report.",
+        "what_is_true": "CNN reported on November 16, 2026, citing seven US officials, that new US intelligence indicates Iran is developing plans to target senior Trump officials with a dirty bomb or chemical weapon in Washington. The same report said officials were still debating whether Iran can or will carry out such a plot.",
+        "sources": [
+          {
+            "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/16/exclusive-us-intel-indicates-iran-developing-plans-to-potentially-detonate-a-dirty-bomb-in-washington-sources-say/",
+            "title": "",
+            "publisher": "ABC17 News (syndicated CNN report)",
+            "excerpt": "New US intelligence indicates that Iran is developing plans to target senior Trump administration officials by detonating a so-called dirty bomb or a chemical weapon in Washington, DC, even as officials continue to debate..."
+          },
+          {
+            "url": "https://www.yahoo.com/news/us/articles/breaking-cnn-reports-iran-developing-234438157.html",
+            "title": "",
+            "publisher": "Yahoo News",
+            "excerpt": "CNN senior national security reporter Katie Bo Lillis joined anchor Jake Tapper on Monday evening to discuss her latest report that Iran is \"developing plans\" to detonate a \"dirty bomb\" in Washington, DC."
+          },
+          {
+            "url": "https://www.newsweek.com/white-house-says-no-credible-threat-after-iran-dirty-bomb-report-12725155",
+            "title": "",
+            "publisher": "Newsweek",
+            "excerpt": "The White House told Newsweek there were currently \"no credible threats\" after a CNN report citing seven U.S. officials stated that new intelligence pointed to a potential effort to target senior Trump administration officials."
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/17/is-iran-plotting-a-dirty-bomb-attack-in-the-us-what-we-know",
+            "title": "",
+            "publisher": "Al Jazeera",
+            "excerpt": "The broadcaster quotes seven unnamed US officials. However, the report sets out no evidence to support the claims."
+          },
+          {
+            "url": "https://www.newsnationnow.com/world/us-iran-war-bahrain-radar-dirty-bomb/",
+            "title": "",
+            "publisher": "NewsNation",
+            "excerpt": "Iran's Foreign Ministry denied a CNN report, citing sources, that U.S. intelligence indicates Tehran is developing plans to potentially detonate a dirty bomb in Washington."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:52:44+00:00"
     },
     {
       "id": "c25",
@@ -615,11 +1030,42 @@
       "start_seconds": 2337,
       "category": "law_courts",
       "checkworthiness": 5,
-      "verification": null,
-      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3n1iVmppTQjrqcqNNK'}",
-      "model": null,
-      "checked_at": "2026-11-18T20:46:41+00:00"
+      "verification": {
+        "verdict": "Mostly accurate",
+        "confidence": "high",
+        "explanation": "The substance is correct. At Tyler Robinson's July 2026 preliminary hearing, the defense called the firearms examiner who wrote the lab report. She testified that the bullet jacket fragment recovered from Charlie Kirk's body could not be identified as fired from the recovered rifle, nor excluded. She said this was because the fragment had too few microscopic marks. One detail is wrong: the examiner, Samantha Karner, works for the ATF, not the FBI. The FBI took custody of the rifle and sent it to the ATF lab for testing. Her report also found that a cartridge case was fired from that rifle. Her result on the fragment was inconclusive. It did not mean the bullet failed to match the rifle.",
+        "what_is_true": "The examiner, a woman, testified at the preliminary hearing, and her report said the bullet jacket fragment 'could not be identified or excluded' as fired from the rifle. She works for the ATF, not the FBI.",
+        "sources": [
+          {
+            "url": "https://www.cnn.com/2026/07/09/us/charlie-kirk-tyler-robinson-roommate-hearing",
+            "title": "",
+            "publisher": "CNN",
+            "excerpt": "The defense called to the stand an ATF examiner who authored a report which stated a bullet jacket fragment recovered from Kirk's body \"could not be identified or excluded\" as having been fired from the rifle."
+          },
+          {
+            "url": "https://www.rev.com/transcripts/ut-v-tyler-robinson-preliminary-hearing-day-4",
+            "title": "",
+            "publisher": "Rev (hearing transcript)",
+            "excerpt": "The Exhibit 6 bullet jacket fragment cannot be identified or excluded as having been fired from the Exhibit 1 rifle based on an agreement of all discernible class characteristics..."
+          },
+          {
+            "url": "https://www.abc4.com/news/charlie-kirk-shooting/tyler-robinson-preliminary-hearing-day-four/",
+            "title": "",
+            "publisher": "ABC4 Utah",
+            "excerpt": "Samantha Karner, a firearm and tool mark examiner for the Bureau of Alcohol, Tobacco, Firearms and Explosives, testifies during a preliminary hearing for Tyler Robinson."
+          },
+          {
+            "url": "https://kutv.com/news/local/inconclusive-bullet-result-not-unusual-in-tyler-robinson-case",
+            "title": "",
+            "publisher": "KUTV",
+            "excerpt": "An inconclusive finding does not mean that the bullet didn't come from Robinson's firearm."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:52:57+00:00"
     }
   ],
-  "updated_at": "2026-11-18T20:46:44+00:00"
+  "updated_at": "2026-11-18T20:52:57+00:00"
 }
