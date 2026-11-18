@@ -1,0 +1,6 @@
+<div class="bar" role="img" aria-label="{% for v, n in counts %}{{ n }} {{ v }}{% if not loop.last %}, {% endif %}{% endfor %}">
+  {% for v, n in counts %}<span class="seg {{ verdict_class[v] }}" style="flex-grow: {{ n }}" title="{{ v }}: {{ n }}"></span>{% endfor %}
+</div>
+<ul class="legend">
+  {% for v, n in counts %}<li><span class="dot {{ verdict_class[v] }}"></span>{{ v }} <b>{{ n }}</b></li>{% endfor %}
+</ul>

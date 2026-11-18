@@ -1,0 +1,31 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<section class="hero">
+  <h1>{{ show_name }} podcast, fact-checked</h1>
+  <p class="lede">Every checkable factual claim from recent episodes, with the exact quote, a timestamp, a verdict, and the sources behind it. Opinions and predictions aren't rated.</p>
+  {% if totals %}
+  <div class="card summary">
+    <div class="stat"><span class="num">{{ episodes|length }}</span><span class="lbl">episodes</span></div>
+    <div class="stat"><span class="num">{{ total_claims }}</span><span class="lbl">claims checked</span></div>
+    <div class="stat grow">{% with counts=totals %}{% include "_bar.html.j2" %}{% endwith %}</div>
+  </div>
+  <p class="muted small">Last updated {{ updated }}. <a href="methodology.html">How claims are picked and rated</a>.</p>
+  {% endif %}
+</section>
+
+{% if not episodes %}
+<p class="card">No episodes have been checked yet.</p>
+{% endif %}
+<ol class="episode-list">
+{% for e in episodes %}
+  <li class="card episode-item">
+    <a class="ep-link" href="episodes/{{ e.rec.episode.id }}.html">
+      <span class="date">{{ e.rec.episode.published }}</span>
+      <h2>{{ e.rec.episode.title }}</h2>
+    </a>
+    <p class="muted small">{{ e.checked }} claims checked</p>
+    {% with counts=e.counts %}{% include "_bar.html.j2" %}{% endwith %}
+  </li>
+{% endfor %}
+</ol>
+{% endblock %}

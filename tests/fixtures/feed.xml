@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel><title>Test Show</title>
+<item><title>Episode Two: The Sequel</title><guid>guid-2</guid><pubDate>Tue, 11 Nov 2026 12:00:00 GMT</pubDate>
+<enclosure url="https://example.com/ep2.mp3" type="audio/mpeg" length="1"/><itunes:duration>1:02:03</itunes:duration><link>https://example.com/2</link></item>
+<item><title>Episode One</title><guid>guid-1</guid><pubDate>Mon, 10 Nov 2026 12:00:00 GMT</pubDate>
+<enclosure url="https://example.com/ep1.mp3" type="audio/mpeg" length="1"/><itunes:duration>3600</itunes:duration></item>
+<item><title>No audio item</title><guid>guid-0</guid><pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate></item>
+</channel></rss>

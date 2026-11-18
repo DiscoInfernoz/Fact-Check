@@ -1,0 +1,53 @@
+# Podcast Fact Check
+
+Automatically fact-checks each episode of the *Candace* podcast and publishes the results as a static website.
+
+```
+RSS feed → transcribe (AssemblyAI, speaker labels) → extract factual claims (Claude)
+        → verify each claim with web search (Claude) → data/episodes/*.json → static site (GitHub Pages)
+```
+
+Each claim on the site shows the exact quote, a timestamp link into the audio, the speaker, a verdict (Accurate, Mostly accurate, Missing context, Disputed, Misleading, Unsupported, False), a short explanation and the sources. Opinions and predictions aren't rated. Citations that didn't come from the model's actual search results are removed, and a verdict with no sources is changed to *Unsupported*.
+
+## Setup
+
+1. **Create a GitHub repo** and push this folder to it.
+2. **Add repository secrets** (Settings → Secrets and variables → Actions):
+   - `ANTHROPIC_API_KEY`: from console.anthropic.com
+   - `ASSEMBLYAI_API_KEY`: from assemblyai.com
+3. **Turn on Pages**: Settings → Pages → Source: *GitHub Actions*.
+4. **Optional:** set a repository *variable* `FEED_URL` to the podcast's RSS URL. If you don't, the feed is looked up from Apple Podcasts ID `1725552624` (change it with `APPLE_PODCAST_ID`). **Confirm the first run picked up the right show**, because several podcasts use similar names.
+5. Actions → *Fact-check episodes* → **Run workflow** with `backfill: 3`, `max_episodes: 3` for a first test.
+
+After that it runs every day, checks new episodes and redeploys the site. For a bigger backfill, run it manually with e.g. `backfill: 50`. Each run processes at most `max_episodes` and the daily runs work through the rest, so no single run hits the 6-hour job limit.
+
+## Running locally
+
+```bash
+python -m venv .venv && . .venv/bin/activate && pip install -e .
+export ANTHROPIC_API_KEY=... ASSEMBLYAI_API_KEY=...
+python -m factcheck run --backfill 1        # newest episode only
+python -m factcheck build && python -m http.server -d site 8000
+```
+
+Other commands: `discover --backfill N`, `process [--episode ID] [--max-episodes N]`, `build`.
+Every stage saves its progress, so re-running only does unfinished work. Failed claims are retried on the next run.
+
+## Settings (environment variables)
+
+| Variable | Default | |
+|---|---|---|
+| `FACTCHECK_MODEL` | `claude-opus-5-5` | Model for extraction and verification |
+| `MAX_CLAIMS_PER_EPISODE` | `25` | The biggest cost lever |
+| `MAX_SEARCHES_PER_CLAIM` | `8` | Web searches (and fetches) allowed per claim |
+| `VERIFY_EFFORT` / `EXTRACT_EFFORT` | `high` / `medium` | Claude effort levels |
+| `VERIFY_CONCURRENCY` | `4` | Claims checked in parallel |
+
+## Cost (rough estimate; check your first run's usage)
+
+About $3–6 per episode with 25 claims on Opus 5.5 (including web search fees), plus about $0.30 for transcription. Lowering `MAX_CLAIMS_PER_EPISODE` or using `FACTCHECK_MODEL=claude-sonnet-5-5` cuts this a lot.
+
+## Notes
+
+- Transcripts are stored in `data/transcripts/` but **not** published on the site; only short quotes appear.
+- The results are AI-generated. Spot-check verdicts, especially the ones marked low confidence, before you share them widely.

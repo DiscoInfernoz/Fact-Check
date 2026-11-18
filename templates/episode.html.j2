@@ -1,0 +1,59 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ ep.title }} · {{ site_title }}{% endblock %}
+{% block content %}
+<p class="crumbs"><a href="{{ root }}index.html">← All episodes</a></p>
+<header class="ep-header">
+  <span class="date">{{ ep.published }}{% if ep.duration_seconds %} · {{ ep.duration_seconds|ts }}{% endif %}</span>
+  <h1>{{ ep.title }}</h1>
+  <p class="small">{% if ep.link %}<a href="{{ ep.link }}">Episode page</a> · {% endif %}<a href="{{ ep.audio_url }}">Audio</a></p>
+  {% include "_bar.html.j2" %}
+  {% if pending %}<p class="muted small">{{ pending }} more claim(s) still being checked.</p>{% endif %}
+</header>
+
+<div class="filters card" id="filters">
+  <label>Verdict
+    <select data-filter="verdict"><option value="">All</option>
+      {% for v, n in counts %}<option value="{{ v }}">{{ v }} ({{ n }})</option>{% endfor %}
+    </select></label>
+  <label>Speaker
+    <select data-filter="speaker"><option value="">All</option>
+      {% for s in speakers %}<option>{{ s }}</option>{% endfor %}
+    </select></label>
+  <label>Topic
+    <select data-filter="category"><option value="">All</option>
+      {% for c in categories %}<option value="{{ c }}">{{ category_label.get(c, c) }}</option>{% endfor %}
+    </select></label>
+  <span class="muted small" id="shown"></span>
+</div>
+
+<ol class="claims">
+{% for c in claims %}{% set v = c.verification %}
+  <li class="card claim" id="{{ c.id }}" data-verdict="{{ v.verdict }}" data-speaker="{{ c.speaker_name }}" data-category="{{ c.category }}">
+    <div class="claim-top">
+      <span class="badge {{ verdict_class[v.verdict] }}">{{ v.verdict }}</span>
+      <span class="meta small">
+        <a href="{{ ep.audio_url }}#t={{ c.start_seconds }}" title="Jump to this moment in the audio">▶ {{ c.start_seconds|ts }}</a>
+        · {{ c.speaker_name }} · {{ category_label.get(c.category, c.category) }}
+        · {{ v.confidence }} confidence
+      </span>
+    </div>
+    <blockquote>“{{ c.quote }}”</blockquote>
+    <p class="claim-text"><span class="muted">Claim:</span> {{ c.claim }}</p>
+    <p>{{ v.explanation }}</p>
+    {% if v.what_is_true %}<p class="true-note"><b>What the evidence shows:</b> {{ v.what_is_true }}</p>{% endif %}
+    {% if v.sources %}
+    <details>
+      <summary>{{ v.sources|length }} source{{ "s" if v.sources|length != 1 }}</summary>
+      <ul class="sources">
+      {% for s in v.sources %}
+        <li><a href="{{ s.url }}" rel="nofollow noopener">{{ s.title }}</a> <span class="muted small">— {{ s.publisher or (s.url|domain) }}</span>
+          {% if s.excerpt %}<p class="excerpt">“{{ s.excerpt }}”</p>{% endif %}</li>
+      {% endfor %}
+      </ul>
+    </details>
+    {% endif %}
+  </li>
+{% endfor %}
+</ol>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}static/filter.js"></script>{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "base.html.j2" %}
+{% block title %}Methodology · {{ site_title }}{% endblock %}
+{% block content %}
+<article class="prose">
+<h1>Methodology</h1>
+<p>This site is produced by an automated pipeline. It's meant as a starting point for checking the show's claims, not the last word on them.</p>
+
+<h2>1. Transcription</h2>
+<p>Each episode's public audio is transcribed automatically with speaker labels. Automatic transcripts can mishear words, so every claim links to the exact moment in the audio.</p>
+
+<h2>2. Picking claims</h2>
+<p>An AI model ({{ model }}) reads the transcript and lists statements that make a specific factual assertion that could be checked against public evidence: events, dates, numbers, quotes, court rulings, scientific findings. Opinions, moral arguments, predictions, jokes, rhetorical questions and clearly labelled speculation are left out. The same rules apply to the host and to guests. Up to 25 of the most significant claims per episode are checked.</p>
+
+<h2>3. Checking claims</h2>
+<p>Each claim is researched separately with live web search. The model is told to prefer primary sources, to look for evidence for the claim as well as against it, and to judge the claim as it was made in context. Any citation that didn't appear in its search results is removed automatically, and a verdict left with no source is changed to <em>Unsupported</em>.</p>
+
+<h2>Verdicts</h2>
+<dl class="verdicts">
+  <dt><span class="badge v-accurate">Accurate</span></dt><dd>The evidence supports the claim as stated.</dd>
+  <dt><span class="badge v-mostly">Mostly accurate</span></dt><dd>Right in substance, with a minor error in a detail.</dd>
+  <dt><span class="badge v-context">Missing context</span></dt><dd>Technically accurate, but leaves out facts that change its meaning.</dd>
+  <dt><span class="badge v-disputed">Disputed</span></dt><dd>Credible sources genuinely disagree, or the facts are still being established.</dd>
+  <dt><span class="badge v-misleading">Misleading</span></dt><dd>Contains some truth but gives a false overall impression.</dd>
+  <dt><span class="badge v-unsupported">Unsupported</span></dt><dd>No credible evidence was found for it, and there isn't enough to show it's false.</dd>
+  <dt><span class="badge v-false">False</span></dt><dd>The evidence shows the claim is wrong.</dd>
+</dl>
+
+<h2>Limits</h2>
+<p>AI models make mistakes: they can misread a source, miss context, or pick a less important claim over a more important one. Low-confidence verdicts are labelled. Please check the sources yourself before relying on a verdict.{% if corrections_url %} If you find an error, <a href="{{ corrections_url }}">report it here</a>.{% endif %}</p>
+</article>
+{% endblock %}
