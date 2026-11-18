@@ -1,0 +1,625 @@
+{
+  "episode": {
+    "id": "2026-11-18-world-is-ending-nationwide-outages-mossad-in-dc-st-06e3a4",
+    "title": "WORLD IS ENDING?! Nationwide Outages, Mossad In DC & State Blocking Tyler Robinson Evidence Access?",
+    "published": "2026-11-18",
+    "audio_url": "https://pscrb.fm/rss/p/traffic.megaphone.fm/GEORGETOMINC8697361175.mp3",
+    "link": "",
+    "duration_seconds": 4190,
+    "description": "Widespread reports of outages & cyber attacks, CNN reports Iran is developing plans for a bomb in DC after the Mossad chief meets with CIA, and is the state blocking Tyler Robinson’s team from accessing evidence?  \n\n\n00:00 - Start. \n00:45 - Widespread outages and cyberattacks. \n29:52 - Mossad in DC & CNN \"sources\" on Iran DC bomb threat. \n42:42 - State blocking Tyler Robinson’s team from accessing evidence?\n01:00:15 - Comments. \n\n\nPROLIFE Across AMERICA​​ \nDonate today and sponsor a billboard at http://www.PROLIFEAcrossAMERICA.org/Candace\n\nNimi Skincare​       ​\nGet 10% off your order with promo code BARON at http://www.NimiSkincare.com\n\nAmerican Financing​     ​\nNMLS 182334, http://www.nmlsconsumeraccess.org. Visit http://www.AmericanFinancing.net/Owens or call 800-795-1210. Average savings based on borrowers who save over $199.99.\n\nZeroGhost​   \nVisit http://www.ZeroGhost.com/Candace and use code CANDACE for $50 off your order. \n\nCandace Clips Channel: https://www.youtube.com/@ClipsCandaceOwens\nCandace Official Website: https://candaceowens.com\nCandace Merch: https://shop.candaceowens.com\nCandace on Apple Podcasts: https://t.co/Pp5VZiLXbq\nCandace on Spotify: https://t.co/16pMuADXuT\nCandace on Rumble: https://rumble.com/c/RealCandaceO\nCandace en Español: https://www.youtube.com/@CandaceOwensEnEspanol\nCandace Owens em Português: https://www.youtube.com/@CandaceOwensemPortugues\nCandace Owens en Français: https://www.youtube.com/@CandaceOwensEnFrançais\nLearn more about your ad choices. Visit megaphone.fm/adchoices"
+  },
+  "status": "extracted",
+  "claims": [
+    {
+      "id": "c01",
+      "quote": "Extraordinary circumstances, reasons of safety. All aircraft operators by order of the federal government essentially were ground stopped.",
+      "claim": "On the Friday before November 17, the FAA issued a ground stop for all aircraft operators, citing extraordinary circumstances and reasons of safety.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 28,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "On Friday, November 13, 2026, the FAA issued a nationwide ground stop at about 3:54 p.m. ET. Its advisory gave the reason as \"extraordinary circumstances and for reasons of safety\" and said all departing traffic should stay grounded until further notice. Inbound international flights were handled case by case, so not every aircraft was grounded, but the speaker's word \"essentially\" covers that. The stop lasted about four to five hours, and thousands of flights were delayed or canceled. Officials later said a telecommunications upgrade by a contractor caused the problem, and law enforcement sources said there was no evidence of a cyberattack. The speaker's account of the event and its wording matches the record.",
+        "what_is_true": "The FAA ordered a nationwide ground stop of all departing flights on Friday, November 13, 2026, citing \"extraordinary circumstances and for reasons of safety.\" Officials later blamed an equipment problem during a telecommunications network upgrade.",
+        "sources": [
+          {
+            "url": "https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop",
+            "title": "",
+            "publisher": "Federal Aviation Administration",
+            "excerpt": "On November 13 at approximately 3:30 p.m. ET, the FAA experienced a technical problem that resulted in issuing a nationwide ground stop."
+          },
+          {
+            "url": "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848",
+            "title": "",
+            "publisher": "ABC News",
+            "excerpt": "The FAA issued the ground stop at 3:54 p.m., pausing all departures across the country. The FAA's alert said the stop was \"due to extraordinary circumstances and for reasons of safety.\""
+          },
+          {
+            "url": "https://www.thedailybeast.com/faa-abruptly-grounds-all-flights-for-first-time-since-911",
+            "title": "",
+            "publisher": "The Daily Beast",
+            "excerpt": "\"All departing traffic should remain ground stopped until further notice,\" an air traffic control advisory posted Friday afternoon read. \"Inbound international flights will be managed on a case-by-case basis.\""
+          },
+          {
+            "url": "https://www.npr.org/2026/11/14/nx-s1-6040952/faa-ground-stop-airplane-travel",
+            "title": "",
+            "publisher": "NPR",
+            "excerpt": "Friday's nationwide ground stop started when a contractor updated old Federal Aviation Administration telecommunication lines, Transportation Secretary Sean Duffy said Saturday."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:45:53+00:00"
+    },
+    {
+      "id": "c02",
+      "quote": "on Friday there was an unscheduled visit to Washington, DC from the director of the Mossad.",
+      "claim": "The director of Israel's Mossad made an unscheduled visit to Washington, DC on the Friday before November 17.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 28,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "Several outlets, citing Axios and three sources familiar with the visit, reported that Mossad Director Roman Gofman was in Washington on Friday, November 13, 2026. He met CIA Director John Ratcliffe and other Trump administration officials about Iran, and was also expected to meet envoy Steve Witkoff in Miami. The trip was not announced in advance. The Mossad, CIA and White House declined to comment, and Ynet called it a \"special visit.\" That fits the word \"unscheduled,\" although no source uses that exact word. Ynet also reported that Gofman returned to Israel on Sunday, November 15, so the co-host's later remark that he was \"still\" in town on Monday is not supported. The reports also give no evidence connecting the visit to the outages discussed in the episode.",
+        "what_is_true": "Mossad Director Roman Gofman made a visit to Washington, DC on Friday, November 13, 2026 that had not been announced beforehand. He met CIA Director John Ratcliffe and other Trump administration officials to discuss Iran.",
+        "sources": [
+          {
+            "url": "https://www.timesofisrael.com/mossad-chief-in-us-for-talks-on-iran-netanyahu-didnt-update-eisenkot-on-visit-report/",
+            "title": "",
+            "publisher": "The Times of Israel",
+            "excerpt": "Mossad Director Roman Gofman was in Washington on Friday for a meeting about Iran with his CIA counterpart John Ratcliffe, the Axios news site reported, citing three sources with knowledge of the matter."
+          },
+          {
+            "url": "https://www.ynetnews.com/article/skpfaiwafl",
+            "title": "",
+            "publisher": "Ynet News",
+            "excerpt": "Mossad Director Roman Gofman returned to Israel on Sunday afternoon following a special visit to the United States, where he briefed senior Trump administration officials and CIA Director John Ratcliffe"
+          },
+          {
+            "url": "https://www.israelnationalnews.com/news/436159",
+            "title": "",
+            "publisher": "Israel National News (Arutz Sheva)",
+            "excerpt": "Mossad Director Roman Gofman traveled to Washington on Friday for discussions with senior officials in the Trump administration concerning the ongoing confrontation with Iran, Axios reported"
+          },
+          {
+            "url": "https://www.haaretz.com/middle-east-news/iran/2026-11-13/ty-article/.premium/mossad-chief-meets-u-s-officials-to-discuss-iran-as-netanyahu-pushes-for-war/000001a1-d57c-da30-a7fb-ddfd4a810000",
+            "title": "",
+            "publisher": "Haaretz",
+            "excerpt": "Mossad Director Roman Gofman met with senior Trump administration officials in Washington on Friday to discuss the war in Iran"
+          },
+          {
+            "url": "https://srnnews.com/israeli-spy-chief-lobbied-for-joint-iran-strikes-on-us-visit-sources-say/",
+            "title": "",
+            "publisher": "SRN News (Reuters)",
+            "excerpt": "Gofman met with Trump administration officials, including CIA Director John Ratcliffe, in Washington, the people said"
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:46:01+00:00"
+    },
+    {
+      "id": "c03",
+      "quote": "the overriding issue was the war in Iran. There's no question about it. Every exit poll said the same thing.",
+      "claim": "Exit polls from the recent elections showed the war in Iran was the overriding issue for voters, and most voters opposed it.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 28,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "I couldn't verify this claim. My search tool hit its usage limit before it returned any results, so I found no exit poll data from the November 2026 elections. That includes the network exit polls and AP VoteCast. Without them, I can't confirm or rule out that the Iran war was the top issue in every exit poll, or that most voters opposed it. The speaker named no poll. In past midterms, exit polls have usually ranked the economy or cost of living first, but that doesn't settle what happened in 2026. A reviewer should check the 2026 network exit polls and AP VoteCast directly.",
+        "what_is_true": "The speaker said Republicans did badly in the recent elections. Whether that's right, and what exit polls showed about the Iran war, couldn't be checked because no search results came back.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:45:42+00:00"
+    },
+    {
+      "id": "c04",
+      "quote": "Last Thursday, last Thursday, so that's November 12th, just a few days ago. It's only November 17th here, right? Last Thursday we got this headline, Microsoft identifies issues leading to global Outlook outage.",
+      "claim": "On Thursday, November 12, Microsoft reported identifying issues behind a global Outlook outage.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 28,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": {
+        "verdict": "Mostly accurate",
+        "confidence": "high",
+        "explanation": "A large Microsoft 365 outage began on Thursday, November 12, 2026, and mainly hit Outlook and Exchange Online. Microsoft gave updates that day, saying the problem appeared to come from servers being unavailable and that there was no sign of malicious activity. The claim gets one detail wrong. The exact headline the speaker quotes, ABC News' \"Microsoft identifies issues leading to global Outlook outage,\" ran on Monday, November 16. It covered a Microsoft executive's later post explaining the cause, which was a \"latent defect,\" increased load and reduced server capacity. Microsoft did give a cause on the day of the outage, but the quoted headline came four days later. That date error doesn't change the main point.",
+        "what_is_true": "A global Outlook/Microsoft 365 outage began on Thursday, November 12, 2026, and Microsoft gave preliminary explanations that day. A fuller account of the cause, carried under the quoted headline, was published on November 16.",
+        "sources": [
+          {
+            "url": "https://abcnews.com/US/outlook-outage-cause-microsoft-reason-teams-down/story?id=138174626",
+            "title": "",
+            "publisher": "ABC News",
+            "excerpt": "Microsoft identifies issues leading to global Outlook outage... November 16, 2026, 9:26 AM... In a lengthy social media post Monday morning, a Microsoft executive said a combination of a \"latent defect,\" increased load and lessened server capacity..."
+          },
+          {
+            "url": "https://abc7ny.com/story/outlook-outage-microsoft-reports-issues-teams-email/20036364/",
+            "title": "",
+            "publisher": "ABC7 New York",
+            "excerpt": "Updates throughout the day on Thursday indicated the company believed the issue may have stemmed from an issue with server availability."
+          },
+          {
+            "url": "https://socradar.io/blog/microsoft-outlook-outage/",
+            "title": "",
+            "publisher": "SOCRadar",
+            "excerpt": "The Microsoft Outlook outage that started on November 12, 2026, began as an Exchange Online mailbox access problem in the Americas and widened into a global Microsoft 365 service degradation."
+          },
+          {
+            "url": "https://abc7news.com/live-updates/microsoft-outage-live-updates-what-know-outlook-365-other-apps-remain-down/20036817/entry/20038470/",
+            "title": "",
+            "publisher": "ABC7 San Francisco",
+            "excerpt": "Nov 13, 2026, 1:48 AM GMT Microsoft reveals cause of massive service outage"
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:45:42+00:00"
+    },
+    {
+      "id": "c05",
+      "quote": "Just a couple of weeks ago, the Republicans got their butts kicked in the elections, absolutely annihilated.",
+      "claim": "Republicans suffered major losses in elections held a couple of weeks before November 17.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 28,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "The midterm elections were held on November 3, 2026, two weeks before the episode was recorded on November 17. Major outlets reported that Republicans lost control of both the House and the Senate. Democrats flipped nine Senate seats, the most in nearly 70 years, giving them a 56–44 majority. They also won roughly 250 or more House seats and flipped several governorships and state legislative chambers. CNBC noted that Republicans had not flipped a single seat held by Democrats. Coverage commonly called the result a 'rout' and a 'drubbing,' which matches the speaker's description. This check covers only the claim about the size of the loss. It does not cover the speaker's separate statement about exit polls and the Iran war.",
+        "what_is_true": "In the November 3, 2026 midterms, Republicans lost both chambers of Congress by large margins, and Democrats made broad gains at the state level, so 'annihilated' is a fair description of the scale.",
+        "sources": [
+          {
+            "url": "https://www.cnbc.com/2026/11/04/democrats-2026-midterm-election-results.html",
+            "title": "",
+            "publisher": "CNBC",
+            "excerpt": "Democrats have flipped seven Senate seats, nearly 30 House districts, five governorships and up to 12 state legislative chambers in a historic 2026 midterm rout."
+          },
+          {
+            "url": "https://www.britannica.com/event/2026-US-midterm-elections",
+            "title": "",
+            "publisher": "Britannica",
+            "excerpt": "Donald Trump's Republican Party lost control of both the House of Representatives and the Senate in a stinging rebuke from voters."
+          },
+          {
+            "url": "https://www.yahoo.com/news/politics/article/lots-of-2026-midterm-races-still-havent-been-called-heres-where-things-stand-205425643.html",
+            "title": "",
+            "publisher": "Yahoo News",
+            "excerpt": "Democrats officially flipped their ninth U.S. Senate seat of the 2026 midterm elections — the most in nearly 70 years."
+          },
+          {
+            "url": "https://www.nbcwashington.com/elections/election-day-after-2026-midterms-congress-results-live-updates/4177248/",
+            "title": "",
+            "publisher": "NBC Washington",
+            "excerpt": "Recap: Vance blames Iran war for GOP losses as Democrats retake Congress"
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:46:04+00:00"
+    },
+    {
+      "id": "c06",
+      "quote": "Workday outage locked employees and firms out of pay and benefits on a Friday.",
+      "claim": "An outage at HR and payroll company Workday on a Friday locked employees and firms out of pay and benefits systems.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 28,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "Several outlets reported that Workday had a widespread outage starting Friday evening, November 13, 2026. Employees at client organizations could not log in, clock in or out, view pay information, request time off or enroll in benefits. Workday serves roughly 11,500 organizations, and reported customers include Target, Walmart, Charles Schwab and NASA's JPL. Workday said a disaster-recovery test had left production data inconsistent, and it told the AP the outage was not a security incident. Service was restored on November 14. The reports describe lost access to pay information and benefits systems. They don't confirm that paychecks were missed, as the speaker suggested later in the segment. Still, the claim as quoted matches the reporting.",
+        "what_is_true": "On Friday, November 13, 2026, a Workday outage left employees at many client firms unable to access pay information, timekeeping and benefits enrollment until service came back on November 14. Workday blamed a failed disaster-recovery test.",
+        "sources": [
+          {
+            "url": "https://www.engadget.com/2316804/workday-outage-locks-millions-employees-out-of-account/",
+            "title": "",
+            "publisher": "Engadget",
+            "excerpt": "A widespread Workday outage on the evening of November 13 left employees unable to clock in and out, access their pay info, request for time off or file for benefits."
+          },
+          {
+            "url": "https://tech.yahoo.com/computing/articles/workday-outage-leaves-employees-unable-011316039.html",
+            "title": "",
+            "publisher": "San Francisco Chronicle via Yahoo Tech",
+            "excerpt": "Workday, the Bay Area payroll and human resources tech giant, experienced an outage Friday, with some employees unable to access their workplace accounts or complete tasks."
+          },
+          {
+            "url": "https://www.foxbusiness.com/technology/software-company-thousands-fortune-500-clients-joins-microsoft-experiencing-major-outage",
+            "title": "",
+            "publisher": "Fox Business",
+            "excerpt": "Workday outage left thousands of companies without access to payroll and HR software Friday, joining Microsoft in experiencing a major service disruption this week."
+          },
+          {
+            "url": "https://uctoday.com/workday-outage-backup-test-payroll-timekeeping",
+            "title": "",
+            "publisher": "UC Today",
+            "excerpt": "Workday went into maintenance Friday after a disaster-recovery test left production data inconsistent."
+          },
+          {
+            "url": "https://mazebolt.com/blog/microsoft-faa-workday-outages-application-layer-ddos",
+            "title": "",
+            "publisher": "MazeBolt",
+            "excerpt": "Workday told the Associated Press the outage was not related to a security incident."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:46:15+00:00"
+    },
+    {
+      "id": "c07",
+      "quote": "Major banking outage linked to Chase impacted Wells Fargo and Bank of America.",
+      "claim": "A major banking outage linked to Chase affected Wells Fargo and Bank of America customers on the Monday in question.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 28,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "On Monday, November 16, 2026, JPMorgan Chase had a nationwide outage that it blamed on a software bug in on-premise hardware. Chase said it was not a cyberattack. ABC7 and Al Jazeera reported that Wells Fargo and Bank of America customers also had problems, mainly when sending money to or receiving it from Chase, including through Zelle. Downdetector logged spikes in complaints for both banks. Bank of America said its own systems ran normally, and Chase said the problem was not systemic. Fortune said it was unclear whether Wells Fargo's online banking trouble had the same cause as Chase's. Even so, the claim as worded, that a Chase-linked outage affected customers at both banks, matches the reporting.",
+        "what_is_true": "On November 16, 2026, a Chase software bug disrupted transactions. The disruption spilled over to customers at Wells Fargo, Bank of America and other banks who were trying to complete transactions with Chase. Bank of America said its own systems were not down, and Chase called it a Chase-only, non-cyber issue.",
+        "sources": [
+          {
+            "url": "https://abc7ny.com/live-updates/bank-outages-today-live-updates-chase-wells-fargo-america-others-are-reported-down/20045306/",
+            "title": "",
+            "publisher": "ABC7 New York",
+            "excerpt": "People at other banks, like Wells Fargo and Bank of America, had problems as they were trying to complete transactions with Chase through Zelle."
+          },
+          {
+            "url": "https://www.wfsb.com/2026/11/16/chase-wells-fargo-bank-america-us-bank-hit-by-nationwide-outage-users-say/",
+            "title": "",
+            "publisher": "Associated Press (via WFSB)",
+            "excerpt": "Thousands of customers reported difficulty accessing online accounts at several major U.S. banks and the money transfer service Zelle on Monday after a technical issue at JPMorgan Chase caused ripple effects throughout the financial system."
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/17/us-bank-outage-what-caused-chase-problems-and-zelle-payment-delays",
+            "title": "",
+            "publisher": "Al Jazeera",
+            "excerpt": "The problems on Monday affected customers at several major financial institutions, including Wells Fargo and Bank of America, while some users also reported delays with Zelle payments."
+          },
+          {
+            "url": "https://fortune.com/2026/11/16/chase-bank-wells-fargo-capital-one-bank-outages/",
+            "title": "",
+            "publisher": "Fortune",
+            "excerpt": "Bank of America told Fortune... systems were operating normally... it was not clear whether the Chase and Wells Fargo failures shared a cause."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:46:19+00:00"
+    },
+    {
+      "id": "c08",
+      "quote": "Popular websites subverted in bid to steal crypto. And target iPhone users. These are some of the world's most viewed websites, including those belonging to Zoom, HSBC— that's a bank— Equifax, CNN, Salesforce, and IKEA.",
+      "claim": "Reuters reported that popular websites, including those of Zoom, HSBC, Equifax, CNN, Salesforce and IKEA, were subverted to steal cryptocurrency and target iPhone users.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 28,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "A Reuters story dated Nov. 16, 2026 ran under the headline the speaker quoted. It named Zoom, HSBC, Equifax, CNN, Salesforce and IKEA and said malicious JavaScript reached visitors to the websites of 178 organizations through the website optimization platform Optimizely. The speaker's details match the report. The account came from security researcher Scott Helme. Reuters said it could not immediately confirm whether the code was successfully used in each case or how far any resulting hacks went. In the podcast, the item was grouped with a series of service outages, but the Reuters report describes a supply-chain script compromise, not a site outage.",
+        "what_is_true": "Reuters reported on Nov. 16, 2026 that a security researcher said websites of Zoom, HSBC, Equifax, CNN, Salesforce, IKEA and others (178 organizations in all) were subverted through Optimizely scripts to steal cryptocurrency and target iPhones. Reuters noted that the extent of any successful hacks was not yet confirmed.",
+        "sources": [
+          {
+            "url": "https://www.investing.com/news/stock-market-news/popular-websites-subverted-in-bid-to-steal-crypto-target-iphone-users-5031640",
+            "title": "",
+            "publisher": "Reuters via Investing.com",
+            "excerpt": "Some of the world's most visited websites, including those belonging to Zoom, HSBC, Equifax, CNN, Salesforce and IKEA, were subverted in an effort to steal cryptocurrency and infect iPhones, a security researcher said on Monday."
+          },
+          {
+            "url": "https://ca.investing.com/news/stock-market-news/popular-websites-subverted-in-bid-to-steal-crypto-target-iphone-users-4962767",
+            "title": "",
+            "publisher": "Reuters via Investing.com Canada",
+            "excerpt": "Malicious JavaScript was aimed at visitors to the websites of 178 organizations across various sectors through Optimizely... Reuters could not immediately ascertain whether the code was successfully used in each case."
+          },
+          {
+            "url": "https://www.thestar.com.my/tech/tech-news/2026/11/17/popular-websites-subverted-in-bid-to-steal-crypto-target-iphone-users",
+            "title": "",
+            "publisher": "The Star (Reuters)",
+            "excerpt": "Nov 16 (Reuters) - Some of the world's most visited websites, including those belonging to Zoom, HSBC, Equifax, CNN, Salesforce and IKEA, were subverted in an effort to steal cryptocurrency and infect iPhones."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:46:26+00:00"
+    },
+    {
+      "id": "c09",
+      "quote": "Highly classified US national security communications network goes down. Sources say this is a network communication system used within the NSA, and there were 6 people cited.",
+      "claim": "CNN reported, citing six sources, that NSANet, a highly classified NSA internal communications network, went down.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 28,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "CNN published an exclusive on November 17, 2026, headlined \"Highly classified US national security communications network goes down.\" It cited six people familiar with the matter and said the network, NSANet, is used for the NSA's internal communications. It also reported that sources saw no evidence of a cyberattack at that point. Other outlets, including the Detroit News, Israel Hayom and the Jerusalem Post, credited CNN and repeated the six-source detail. That matches the co-host's description. Later reports said NSA officials described the problem as a temporary degradation during scheduled routine maintenance, and some outlets linked it to software patching. Those later details don't change whether the co-host described CNN's report correctly.",
+        "what_is_true": "On November 17, 2026, CNN reported, citing six people familiar with the matter, that NSANet, the highly classified network the NSA uses for internal communications, was down, and that sources saw no evidence of a cyberattack.",
+        "sources": [
+          {
+            "url": "https://edition.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down?cid=ios_app",
+            "title": "",
+            "publisher": "CNN",
+            "excerpt": "The highly classified network that the National Security Agency uses for its internal communications is down, according to six people familiar with the matter. … At this point there is no evidence of a cyberattack, sources said."
+          },
+          {
+            "url": "https://www.detroitnews.com/story/news/nation/2026/11/17/us-national-security-communications-network-is-down-cnn-reports/92830268007/",
+            "title": "",
+            "publisher": "The Detroit News",
+            "excerpt": "CNN, which first reported on the outage, said that it affected NSANet, which allows employees to share classified information internally."
+          },
+          {
+            "url": "https://www.israelhayom.com/2026/11/17/highly-classified-nsa-communications-network-goes-down/",
+            "title": "",
+            "publisher": "Israel Hayom",
+            "excerpt": "A highly classified communications network used by the US National Security Agency (NSA) has gone down, CNN reported Tuesday, citing six people familiar with the matter."
+          },
+          {
+            "url": "https://kstp.com/kstp-news/top-news/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
+            "title": "",
+            "publisher": "KSTP",
+            "excerpt": "A different U.S. official said that the NSA \"experienced temporary degradation during scheduled routine maintenance.\""
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-18T20:46:25+00:00"
+    },
+    {
+      "id": "c10",
+      "quote": "The FBI says RTX AI open-source hacking tool has been used to breach networks in under 3 hours.",
+      "claim": "TechCrunch reported that the FBI said an open-source AI hacking tool called RTX has been used to breach networks in under three hours.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 28,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": null,
+      "error": "APIStatusError: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3k8q5enutN7ewjHK5k'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:39+00:00"
+    },
+    {
+      "id": "c11",
+      "quote": "Last Thursday, last Thursday, so that's November 12th, just a few days ago. It's only November 17th here, right? Last Thursday we got this headline, Microsoft identifies issues leading to global Outlook outage.",
+      "claim": "On Thursday, November 12, Microsoft reported a global Outlook outage that also affected other Microsoft services such as Teams and Word.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 28,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": null,
+      "error": "APIStatusError: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3kQ2d3jtgsy4xV55De'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:41+00:00"
+    },
+    {
+      "id": "c12",
+      "quote": "we get a headline about the FAA ground stop. And when you look at it, it's a pretty crazily worded message. Extraordinary circumstances, reasons of safety. All aircraft operators by order of the federal government essentially were ground stopped.",
+      "claim": "On the Friday after the Microsoft outage, the FAA issued a nationwide ground stop citing extraordinary circumstances and safety reasons, later attributed to a routine upgrade that went awry.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 28,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": null,
+      "error": "APIStatusError: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3kpLrQCfRMAEUiUW9Z'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:44+00:00"
+    },
+    {
+      "id": "c13",
+      "quote": "We get this tweet from United Airlines. We sincerely apologize for the inconvenience. We're aware of the widespread system outage.",
+      "claim": "United Airlines posted on Monday that it was aware of a widespread system outage, and said there was no indication it was due to cybersecurity-related issues.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 28,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": null,
+      "error": "APIStatusError: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3kx6gYY8inRATW6XcR'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:41+00:00"
+    },
+    {
+      "id": "c14",
+      "quote": "You've not been listening to Bill Gates, the guy who flew to the island all the time. You've not been listening to Bill Gates, the guy whose wife left him because he flew to the island.",
+      "claim": "Bill Gates frequently flew to Jeffrey Epstein's island, and his wife divorced him because of it.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 1350,
+      "category": "biography",
+      "checkworthiness": 4,
+      "verification": null,
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3mubQ3fx9giEnPFVd7'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:40+00:00"
+    },
+    {
+      "id": "c15",
+      "quote": "The Director of National Intelligence comes out, a guy named Jay Clayton. The Director of National Intelligence comes out and says, also, no evidence of cyberattack here.",
+      "claim": "Jay Clayton, identified as the Director of National Intelligence, stated there was no evidence of a cyberattack behind the outages.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 1350,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": null,
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3mvSFP1hg5wx8zHnzw'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:40+00:00"
+    },
+    {
+      "id": "c16",
+      "quote": "We, we do not see the indicia of a coordinated cyberattack. Let me just be, be clear about that. And we do not see the indicia of state-sponsored activity here.",
+      "claim": "A US official stated the government did not see signs of a coordinated cyberattack or state-sponsored activity behind the outages.",
+      "speaker": "E",
+      "speaker_name": "Jay Clayton (identified by Speaker B as Director of National Intelligence)",
+      "start_seconds": 1484,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": null,
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3mw8BZRBiuS97tq11k'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:40+00:00"
+    },
+    {
+      "id": "c17",
+      "quote": "Lots of institutions, because these vulnerabilities have been identified, are patching. They're taking their systems down. They're upgrading them.",
+      "claim": "The official stated that the outages resulted from many institutions patching and upgrading systems after vulnerabilities were identified, with some systems failing to come back as expected.",
+      "speaker": "E",
+      "speaker_name": "Jay Clayton (identified by Speaker B as Director of National Intelligence)",
+      "start_seconds": 1484,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": null,
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3mwitqcsmox2v5pt3K'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:40+00:00"
+    },
+    {
+      "id": "c18",
+      "quote": "that just caused us to give the Democrats 56 of the 100 United States Senate seats.",
+      "claim": "After the recent election, Democrats hold 56 of the 100 US Senate seats.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 1599,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": null,
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3mxMbbKFeXuievBHqP'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:40+00:00"
+    },
+    {
+      "id": "c19",
+      "quote": "They lost the House. They lost all kinds of governorships.",
+      "claim": "Republicans lost control of the House and lost multiple governorships in the recent election.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 1599,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": null,
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3my2mwrLLeXYWAqfAv'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:40+00:00"
+    },
+    {
+      "id": "c20",
+      "quote": "Roman Goffman. He's the director of Mossad. Visits Washington for talks with CIA Director John Ratcliffe.",
+      "claim": "Mossad director Roman Goffman visited Washington for talks with CIA Director John Ratcliffe.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 1599,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": null,
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3myihJpJa1Zk72MYZs'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:41+00:00"
+    },
+    {
+      "id": "c21",
+      "quote": "Director of Israeli spy agency Mossad is in Washington Friday for talks with senior Trump administration officials about the war in Iran, according to 3 sources with knowledge of the matter.",
+      "claim": "Axios reported, citing three sources, that the Mossad director was in Washington on Friday for talks on the Iran war as Netanyahu pressed Trump to resume the war.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 1599,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": null,
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3mzQrucz2VdS3Bggow'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:41+00:00"
+    },
+    {
+      "id": "c22",
+      "quote": "Here's a headline from CNN just yesterday. US intel indicates Iran developing plans to potentially detonate a dirty bomb in Washington, sources say.",
+      "claim": "CNN reported, citing sources, that US intelligence indicates Iran is developing plans to potentially detonate a dirty bomb in Washington.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 1599,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": null,
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3n163pYuGVFWpz2YYK'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:41+00:00"
+    },
+    {
+      "id": "c23",
+      "quote": "comes as the Israeli prime minister is pressing President Trump to resume the war against Iran",
+      "claim": "Axios reported that Israeli Prime Minister Netanyahu was pressing President Trump to resume the war against Iran.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 1599,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": null,
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3n19GPANvSpcMSEGiA'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:41+00:00"
+    },
+    {
+      "id": "c24",
+      "quote": "New U.S. intelligence indicates that the government of Iran is developing plans to target senior Trump administration officials by detonating a so-called dirty bomb or a chemical weapon here in the nation's capital",
+      "claim": "CNN reported that new U.S. intelligence indicates Iran is developing plans to target senior Trump administration officials with a dirty bomb or chemical weapon in Washington, D.C., according to seven U.S. officials.",
+      "speaker": "F",
+      "speaker_name": "Jake Tapper (CNN anchor)",
+      "start_seconds": 2254,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": null,
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3n13Kho6ePku3VMk5T'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:41+00:00"
+    },
+    {
+      "id": "c25",
+      "quote": "The expert testified at the preliminary hearing and produced a report that she was unable to determine whether that bullet was fired from that particular rifle.",
+      "claim": "The FBI firearms expert testified at the preliminary hearing that she could not determine whether the bullet was fired from the rifle linked to Tyler Robinson.",
+      "speaker": "B",
+      "speaker_name": "Unknown (co-host filling in; refers to 'Candace and I')",
+      "start_seconds": 2337,
+      "category": "law_courts",
+      "checkworthiness": 5,
+      "verification": null,
+      "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChB3n1iVmppTQjrqcqNNK'}",
+      "model": null,
+      "checked_at": "2026-11-18T20:46:41+00:00"
+    }
+  ],
+  "updated_at": "2026-11-18T20:46:44+00:00"
+}
