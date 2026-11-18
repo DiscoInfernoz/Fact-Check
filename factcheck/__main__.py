@@ -18,6 +18,15 @@ log = logging.getLogger("factcheck")
 
 
 def process_episode(rec) -> None:
+    start = llm.spent()
+    try:
+        _process_episode(rec)
+    finally:
+        rec.cost_usd = round(rec.cost_usd + llm.spent() - start, 4)
+        storage.save_record(rec)
+
+
+def _process_episode(rec) -> None:
     ep = rec.episode
     log.info("== %s (%s)", ep.title, ep.id)
     transcript = transcribe.transcribe(rec)
@@ -57,19 +66,19 @@ def process(episode_id: str | None, limit: int | None) -> int:
             ok = sum(1 for c in rec.claims if c.verification)
             bad = sum(1 for c in rec.claims if c.error)
             failed_claims += bad
-            rows.append(f"| {rec.episode.published} | {rec.episode.title} | {ok} | {bad} | |")
+            rows.append(f"| {rec.episode.published} | {rec.episode.title} | {ok} | {bad} | ${rec.cost_usd:.2f} | |")
         except llm.OutOfCredits:
             storage.save_record(rec)
             errors += 1
             log.error("Anthropic API credit balance is too low. Stopping; finished work is saved.")
             rows.append(f"| {rec.episode.published} | {rec.episode.title} | "
-                        f"{sum(1 for c in rec.claims if c.verification)} | | **Out of Anthropic API credits.** "
+                        f"{sum(1 for c in rec.claims if c.verification)} | | ${rec.cost_usd:.2f} | **Out of Anthropic API credits.** "
                         "Add credit at console.anthropic.com → Billing; the rest is picked up on the next run. |")
             break
         except Exception as e:
             errors += 1
             log.exception("Episode failed: %s", rec.episode.id)
-            rows.append(f"| {rec.episode.published} | {rec.episode.title} | | | {type(e).__name__}: {str(e)[:150]} |")
+            rows.append(f"| {rec.episode.published} | {rec.episode.title} | | | ${rec.cost_usd:.2f} | {type(e).__name__}: {str(e)[:150]} |")
     write_summary(rows, failed_claims, errors)
     # A red run in the Actions tab means something needs a look; work done so far is still saved.
     return 1 if (errors or failed_claims) else 0
@@ -87,7 +96,10 @@ def write_summary(rows: list[str], failed_claims: int, errors: int) -> None:
         lines += [f"**Site:** https://{owner.lower()}.github.io/{name}/", ""]
     lines += [f"Feed: {config.FEED_URL}", ""]
     if rows:
-        lines += ["| Published | Episode | Claims checked | Claims failed | Error |", "|---|---|---|---|---|", *rows, ""]
+        lines += ["| Published | Episode | Claims checked | Claims failed | Claude cost (est.) | Error |",
+                  "|---|---|---|---|---|---|", *rows, "",
+                  f"**Estimated Claude spend this run: ${llm.spent():.2f}** "
+                  "(transcription is extra, about $0.15–0.40 per hour of audio).", ""]
     else:
         lines += ["No new or unfinished episodes this run.", ""]
     if failed_claims or errors:
@@ -120,7 +132,7 @@ def main(argv=None) -> int:
             discover.discover(args.backfill, args.feed)
         except Exception as e:
             log.error("Could not read the podcast feed: %s", e)
-            write_summary([f"| | | | | Feed problem: {str(e)[:300]} |"], 0, 1)
+            write_summary([f"| | | | | | Feed problem: {str(e)[:300]} |"], 0, 1)
             return 1
     if args.cmd in ("run", "process"):
         code = process(args.episode, args.max_episodes)

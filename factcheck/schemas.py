@@ -97,4 +97,5 @@ class EpisodeRecord(BaseModel):
     episode: Episode
     status: Literal["discovered", "transcribed", "extracted", "verified"] = "discovered"
     claims: list[CheckedClaim] = []
+    cost_usd: float = 0.0  # estimated Claude spend for this episode, summed over all runs
     updated_at: str = ""

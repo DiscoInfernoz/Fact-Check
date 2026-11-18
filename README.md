@@ -42,14 +42,16 @@ Set these as repository *variables* (Settings → Secrets and variables → Acti
 | Variable | Default | |
 |---|---|---|
 | `FACTCHECK_MODEL` | `claude-opus-5-5` | Model for extraction and verification |
-| `MAX_CLAIMS_PER_EPISODE` | `25` | The biggest cost lever |
-| `MAX_SEARCHES_PER_CLAIM` | `8` | Web searches (and fetches) allowed per claim |
+| `MAX_CLAIMS_PER_EPISODE` | `12` | The biggest cost lever |
+| `MAX_SEARCHES_PER_CLAIM` | `4` | Web searches allowed per claim |
+| `MAX_FETCHES_PER_CLAIM` | `3` | Full-page reads allowed per claim |
+| `FETCH_MAX_TOKENS` | `6000` | How much of each fetched page is read |
 | `VERIFY_EFFORT` / `EXTRACT_EFFORT` | `high` / `medium` | Claude effort levels |
 | `VERIFY_CONCURRENCY` | `4` | Claims checked in parallel |
 
-## Cost (rough estimate; check your first run's usage)
+## Cost
 
-About $3–6 per episode with 25 claims on Opus 5.5 (including web search fees), plus about $0.30 for transcription. Lowering `MAX_CLAIMS_PER_EPISODE` or using `FACTCHECK_MODEL=claude-sonnet-5-5` cuts this a lot.
+The defaults aim for about $1 per episode on Opus 5.5, plus about $0.15–0.40 for transcription. (The first version, with 25 claims and 8 searches each, cost about $6.) Each run's summary shows the estimated Claude spend per episode, and each episode's total is stored as `cost_usd` in its data file. For lower costs, set `FACTCHECK_MODEL=claude-sonnet-5-5` (about half the price) or reduce `MAX_CLAIMS_PER_EPISODE`.
 
 ## Notes
 

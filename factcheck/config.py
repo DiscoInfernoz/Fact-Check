@@ -22,8 +22,12 @@ EXPECTED_FEED_TITLE = os.environ.get("EXPECTED_FEED_TITLE", "Candace")
 MODEL = os.environ.get("FACTCHECK_MODEL") or "claude-opus-5-5"
 EXTRACT_EFFORT = os.environ.get("EXTRACT_EFFORT") or "medium"
 VERIFY_EFFORT = os.environ.get("VERIFY_EFFORT") or "high"
-MAX_SEARCHES_PER_CLAIM = int(os.environ.get("MAX_SEARCHES_PER_CLAIM") or "8")
-MAX_CLAIMS_PER_EPISODE = int(os.environ.get("MAX_CLAIMS_PER_EPISODE") or "25")
+# Cost levers. Claim checking is ~90% of the bill: every search result and fetched page
+# is sent back to the model as input tokens.
+MAX_SEARCHES_PER_CLAIM = int(os.environ.get("MAX_SEARCHES_PER_CLAIM") or "4")
+MAX_FETCHES_PER_CLAIM = int(os.environ.get("MAX_FETCHES_PER_CLAIM") or "3")
+FETCH_MAX_TOKENS = int(os.environ.get("FETCH_MAX_TOKENS") or "6000")  # cap per fetched page
+MAX_CLAIMS_PER_EPISODE = int(os.environ.get("MAX_CLAIMS_PER_EPISODE") or "12")
 VERIFY_CONCURRENCY = int(os.environ.get("VERIFY_CONCURRENCY") or "4")
 
 # Transcript chunking for claim extraction (seconds)

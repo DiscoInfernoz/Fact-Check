@@ -173,3 +173,31 @@ def test_out_of_credits_stops_and_reports(tmp_data, monkeypatch):
     assert cli.process(None, None) == 1
     assert len(calls) < 5  # stopped early instead of trying every claim (a worker may already have started the next one)
     assert "Out of Anthropic API credits" in summary.read_text()
+
+
+def test_cost_estimate_and_recording(tmp_data, monkeypatch):
+    usage = NS(input_tokens=100_000, output_tokens=2_000, cache_read_input_tokens=0,
+               cache_creation_input_tokens=0, server_tool_use=NS(web_search_requests=4, web_fetch_requests=2))
+    assert llm.response_cost(NS(model="claude-opus-5-5", usage=usage)) == pytest.approx(0.4 + 0.04 + 0.04)
+    assert llm.response_cost(NS(model="claude-sonnet-5-5", usage=usage)) == pytest.approx(0.2 + 0.02 + 0.04)
+
+    final = _verification(["https://src.gov/r"]).model_dump_json()
+    resp = NS(stop_reason="end_turn", model="claude-opus-5-5", stop_details=None, usage=usage,
+              content=[NS(type="web_search_tool_result", content=[NS(url="https://src.gov/r")]),
+                       NS(type="text", text=final)])
+    monkeypatch.setattr(llm, "_client", NS(beta=NS(messages=NS(stream=lambda **kw: FakeStream(resp)))))
+    from factcheck import __main__ as cli
+    ep = Episode(id="e1", title="T", published="2026-11-10", audio_url="https://x/a.mp3")
+    claims = [CheckedClaim(id=f"c{i}", quote="q", claim="c", speaker="A", start_seconds=10,
+                           category="history", checkworthiness=5) for i in range(3)]
+    storage.save_record(EpisodeRecord(episode=ep, status="extracted", claims=claims))
+    storage.save_transcript("e1", {"utterances": []})
+    assert cli.process(None, None) == 0
+    rec = storage.load_record("e1")
+    assert rec.status == "verified" and rec.cost_usd == pytest.approx(3 * 0.48, abs=0.01)
+
+
+def test_fetch_is_capped():
+    tools = {t["name"]: t for t in verify._tools()}
+    assert tools["web_fetch"]["max_content_tokens"] == config.FETCH_MAX_TOKENS
+    assert tools["web_search"]["max_uses"] == config.MAX_SEARCHES_PER_CLAIM

@@ -22,7 +22,8 @@ def _context(transcript: dict, at: int, window: int = 45) -> str:
 def _tools() -> list[dict]:
     return [
         {"type": "web_search_20260209", "name": "web_search", "max_uses": config.MAX_SEARCHES_PER_CLAIM},
-        {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": config.MAX_SEARCHES_PER_CLAIM},
+        {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": config.MAX_FETCHES_PER_CLAIM,
+         "max_content_tokens": config.FETCH_MAX_TOKENS},
     ]
 
 

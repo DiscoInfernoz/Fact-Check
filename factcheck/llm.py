@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import logging
+import threading
 from typing import TypeVar
 
 import anthropic
@@ -15,6 +16,47 @@ T = TypeVar("T", bound=BaseModel)
 
 _client: anthropic.Anthropic | None = None
 MAX_CONTINUATIONS = 5
+
+# USD per million tokens: (input, output, cache read). Cache writes are billed at 1.25x input.
+# Update if prices change; unknown models are costed at Opus 5.5 rates.
+PRICES = {
+    "claude-opus-5-5": (4.00, 20.00, 0.20),
+    "claude-sonnet-5-5": (2.00, 10.00, 0.10),
+    "claude-haiku-5-5": (0.10, 0.50, 0.01),
+    "claude-fable-5-2": (8.00, 40.00, 0.20),
+    "claude-opus-5": (5.00, 25.00, 0.50),
+    "claude-opus-4-8": (5.00, 25.00, 0.50),
+    "claude-sonnet-5": (2.00, 10.00, 0.20),
+}
+WEB_SEARCH_USD = 10.00 / 1000
+
+_spent = 0.0
+_spent_lock = threading.Lock()
+
+
+def response_cost(resp) -> float:
+    u = getattr(resp, "usage", None)
+    if u is None:
+        return 0.0
+    inp, out, cread = PRICES.get(getattr(resp, "model", ""), PRICES["claude-opus-5-5"])
+    usd = ((u.input_tokens or 0) * inp + (u.output_tokens or 0) * out
+           + (getattr(u, "cache_read_input_tokens", 0) or 0) * cread
+           + (getattr(u, "cache_creation_input_tokens", 0) or 0) * inp * 1.25) / 1e6
+    stu = getattr(u, "server_tool_use", None)
+    if stu is not None:
+        usd += (getattr(stu, "web_search_requests", 0) or 0) * WEB_SEARCH_USD
+    return usd
+
+
+def _add_cost(usd: float) -> None:
+    global _spent
+    with _spent_lock:
+        _spent += usd
+
+
+def spent() -> float:
+    """Estimated Claude spend (USD) in this process so far."""
+    return _spent
 
 
 class ClaudeRefusal(RuntimeError):
@@ -84,6 +126,7 @@ def structured_call(
     for _ in range(MAX_CONTINUATIONS + 1):
         with client().beta.messages.stream(messages=messages, **params) as stream:
             resp = stream.get_final_message()
+        _add_cost(response_cost(resp))
         assistant_blocks.extend(resp.content)
         if resp.stop_reason == "pause_turn":
             # Server-side tool loop hit its iteration limit: resend the turn so far and it resumes.
