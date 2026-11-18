@@ -1,0 +1,57 @@
+{
+  "episode": {
+    "id": "2026-11-17-ai-website-side-hustles-5df288",
+    "title": "AI Website Side Hustles",
+    "published": "2026-11-17",
+    "audio_url": "https://rss.art19.com/episodes/92d2c16a-45da-4d23-9d57-8bf27d584415.mp3?rss_browser=BAhJIhZwb2RjYXN0LWZhY3RjaGVjawY6BkVU--c5ce38edce6942f0e030e05057c8d9bfbcb00a64",
+    "link": "",
+    "duration_seconds": 511,
+    "description": "<span>Show Links</span><span><br /></span><span>• Get the top 80+ AI Models for $8.99 at AI Box: https://aibox.ai</span><span><br /></span><span>• How I Grow and Scale My Business with AI: https://www.skool.com/aihustle</span><span><br /></span><span>• Get the AI Chat Daily Newsletter: https://www.aichatdaily.com/newsletter</span><span><br /><div>In this episode, we examine a viral side hustle involving cold calling businesses with poor websites and offering AI-assisted website creation. While there may be potential for profit, the challenges of cold calling and the oversimplification of the process are thoroughly discussed, leading to suggestions for more sustainable business strategies.</div><div><br /></div><div>Chapters</div><div>00:00 Introduction to Viral Hustles</div><div>02:01 Challenges of Cold Calling</div><div>03:59 Sustainability of the Strategy</div><div>06:02 Alternatives to One-Time Sales</div></span>\n\nSee Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info."
+  },
+  "status": "extracted",
+  "claims": [
+    {
+      "id": "c01",
+      "quote": "School community is $19 a month.",
+      "claim": "The hosts' Skool community costs $19 per month.",
+      "speaker": "A",
+      "speaker_name": "Jaden (co-host; named in the transcript, not Candace Owens)",
+      "start_seconds": 0,
+      "category": "other",
+      "checkworthiness": 2,
+      "verification": null,
+      "error": "ValidationError: 3 validation errors for VerificationResult\nsources.0.title\n  Field required [type=missing, input_value={'url': 'https://www.skoo... what they're building\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/missing\nsources.1.title\n  Field required",
+      "model": null,
+      "checked_at": "2026-11-18T20:34:37+00:00"
+    },
+    {
+      "id": "c02",
+      "quote": "how you can cold outreach to over 1,000 people a day. Businesses a day, not going to spam.",
+      "claim": "The hosts' community video explains a method for sending cold outreach emails to over 1,000 businesses a day without the emails landing in spam.",
+      "speaker": "A",
+      "speaker_name": "Jaden (co-host; named in the transcript, not Candace Owens)",
+      "start_seconds": 0,
+      "category": "other",
+      "checkworthiness": 2,
+      "verification": null,
+      "error": "ValidationError: 4 validation errors for VerificationResult\nsources.0.title\n  Field required [type=missing, input_value={'url': 'https://www.mail...en properly warmed up.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/missing\nsources.1.title\n  Field required",
+      "model": null,
+      "checked_at": "2026-11-18T20:34:36+00:00"
+    },
+    {
+      "id": "c03",
+      "quote": "if a business has a Google Business Profile and they're collecting reviews, 99.9% of those businesses are aware enough to know that they need a website",
+      "claim": "About 99.9% of businesses with a Google Business Profile that collect reviews know they need a website, so very few such businesses lack one.",
+      "speaker": "B",
+      "speaker_name": "Jamie (co-host; named in the transcript, not Candace Owens)",
+      "start_seconds": 239,
+      "category": "statistics",
+      "checkworthiness": 3,
+      "verification": null,
+      "error": "ValidationError: 4 validation errors for VerificationResult\nsources.0.title\n  Field required [type=missing, input_value={'url': 'https://www.suff...rofiles that link one.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/missing\nsources.1.title\n  Field required",
+      "model": null,
+      "checked_at": "2026-11-18T20:35:00+00:00"
+    }
+  ],
+  "updated_at": "2026-11-18T20:35:00+00:00"
+}
