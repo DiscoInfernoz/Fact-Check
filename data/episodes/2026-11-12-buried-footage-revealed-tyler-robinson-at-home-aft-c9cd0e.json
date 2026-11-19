@@ -1,0 +1,369 @@
+{
+  "episode": {
+    "id": "2026-11-12-buried-footage-revealed-tyler-robinson-at-home-aft-c9cd0e",
+    "title": "BURIED FOOTAGE REVEALED! Tyler Robinson At Home After UVU. Lance Twiggs’ Testimony Collapses?",
+    "published": "2026-11-12",
+    "audio_url": "https://pscrb.fm/rss/p/traffic.megaphone.fm/GEORGETOMINC4559918698.mp3",
+    "link": "",
+    "duration_seconds": 5219,
+    "description": "New footage of Tyler Robinson has us asking questions about Lance Twiggs’ testimony, Mark Levin blames Iran for getting locked out of his AOL account, and Thomas Massie’s effort to impeach Pete Hegseth fails because 11 Democrats didn’t show up to vote. \n\n\n\n00:00 - Start. \n01:12 - New footage of Tyler Robinson.\n36:09 - Lance's texts and timeline issues now. \n1:06:36 - Massie’s effort to impeach Hegseth fails due to Dems. \n01:14:35 - Mark Levin blames Iran for getting locked out of his AOL account. \n01:18:06 - Comments. \n\nPROLIFE Across AMERICA​  ​\nDonate today and sponsor a billboard at http://www.PROLIFEAcrossAMERICA.org/Candace\n\nThe Wellness Company​ \nWith recent threats including power grid blackouts, satellite disruptions, supply chain breakdowns, & limited access to meds, there's never been a better time to prepare! Get your Medical Emergency Kit today at http://www.twc.health/CANDACE , code CANDACE SAVES $30 + Free Shipping. USA Residents Only 🇺🇸\n\nHome Title Lock​ \nGo to https://hometitlelock.com and use promo code BARON25 to get a FREE title history report and a FREE TRIAL of their Triple Lock Protection\n\nSentry H2O​  \nGet 10% off + a FREE shower head with your order! Learn more at http://www.SentryH2O.com/Candace \n\nCandace Clips Channel: https://www.youtube.com/@ClipsCandaceOwens\nCandace Official Website: https://candaceowens.com\nCandace Merch: https://shop.candaceowens.com\nCandace on Apple Podcasts: https://t.co/Pp5VZiLXbq\nCandace on Spotify: https://t.co/16pMuADXuT\nCandace on Rumble: https://rumble.com/c/RealCandaceO\nCandace en Español: https://www.youtube.com/@CandaceOwensEnEspanol\nCandace Owens em Português: https://www.youtube.com/@CandaceOwensemPortugues\nCandace Owens en Français: https://www.youtube.com/@CandaceOwensEnFrançais\nLearn more about your ad choices. Visit megaphone.fm/adchoices"
+  },
+  "status": "verified",
+  "claims": [
+    {
+      "id": "c01",
+      "quote": "In Panguitch, there was a server who said he 100% could identify Tyler Robinson sitting at the steakhouse while he was working there upwards of over an hour, I think from like 8:45 to 9:45 or something.",
+      "claim": "A server at the Cowboys Smokehouse in Panguitch, Utah, said he was 100% sure he saw Tyler Robinson there for over an hour, around 8:45 to 9:45, at the time Robinson was allegedly in Orem.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host; refers to himself as 'your humble host' and 'Baron Coleman')",
+      "start_seconds": 0,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": {
+        "verdict": "Missing context",
+        "confidence": "medium",
+        "explanation": "In a July 2026 interview with independent investigator Diligent Denizen, a Cowboy's Smokehouse server said he was 100% sure he served Tyler Robinson. The receipt he points to shows the diner was seated at 8:55 p.m. and paid around 9:47 p.m. That is about 52 minutes, not 'over an hour,' but it is close to the times Coleman gave. Coleman leaves out several things. The restaurant owner told Fox News in January that a server was 'relatively certain,' not 100%. The receipt has no customer name, only the last four card digits. The owner said the FBI interviewed him and two servers, and he was not told whether the diner was ever identified. Later he reportedly said he had no reason to believe Robinson was there. No official source has confirmed the sighting.",
+        "what_is_true": "A Panguitch server told an independent investigator he was 100% certain Robinson ate at the restaurant on Sept. 10, 2025. The receipt he points to runs from about 8:55 to 9:47 p.m., which reportedly conflicts with prosecution texts suggesting Robinson was in Orem that evening.",
+        "sources": [
+          {
+            "url": "https://x.com/HeritageUSA__/status/2088450055552336242",
+            "title": "",
+            "publisher": "X (reposting Diligent Denizen)",
+            "excerpt": "Full raw interview I did with witness who 100% ID'd Tyler Robinson @ 8:55-9:47pm in Panguitch, UT on 9/10/25"
+          },
+          {
+            "url": "https://www.twitterspacegpt.com/articles/panguitch-alibi-receipt-tyler-robinson-debrief-uRnHh0",
+            "title": "",
+            "publisher": "TwitterSpaceGPT (summary of X Space)",
+            "excerpt": "Dine-in at Cowboy Smokehouse on September 10, seating at 8:55 p.m. and payment around 9:47 p.m. The printed ticket shows only the last 4 digits of the card... it does not show a customer name."
+          },
+          {
+            "url": "https://www.yahoo.com/news/articles/one-tyler-robinsons-last-meals-210003191.html",
+            "title": "",
+            "publisher": "Fox News Digital (via Yahoo)",
+            "excerpt": "I had a server say that they were relatively certain that they had had that person in that night — late... Investigators interviewed the owner and two servers."
+          },
+          {
+            "url": "https://x.com/ProjectConstitu/status/2094002931716555080",
+            "title": "",
+            "publisher": "Project Constitution (X)",
+            "excerpt": "He says he has no reason to believe Robinson was there."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:18:30+00:00"
+    },
+    {
+      "id": "c02",
+      "quote": "He contacted the FBI. Um, they got our contact information. But we never heard anything from them.",
+      "claim": "The Cowboys Smokehouse server's employer reported the sighting to the FBI, and the FBI never followed up with them.",
+      "speaker": "B",
+      "speaker_name": "Unknown (server at the Cowboys Smokehouse in Panguitch)",
+      "start_seconds": 298,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "The only evidence for this claim is the server's own account. He spoke anonymously in an interview recorded by Diligent Denizen, an independent online investigator, who also summarized it on X. That post says the staff reported the sighting to the FBI and that neither the prosecution nor the defense had contacted the restaurant. I found no public record, statement from law enforcement or the FBI, court filing, or independent news report that confirms or contradicts whether a tip was made or what happened to it. The FBI does not usually comment on individual tips. The broader claim that the server saw Tyler Robinson in Panguitch on the evening of September 10 is also uncorroborated. My search was cut short by a tool limit, so a reviewer should check further.",
+        "what_is_true": "A Cowboys Smokehouse employee did say in an anonymous interview that his boss contacted the FBI and that the restaurant never heard back. Independent sources do not confirm whether a tip was received or whether anyone followed up.",
+        "sources": [
+          {
+            "url": "https://x.com/DiligentDenizen/status/2076405974597063038",
+            "title": "",
+            "publisher": "Diligent Denizen (X)",
+            "excerpt": "I interviewed the STAFF AT COWBOY'S SMOKEHOUSE... They turned into the FBI... Neither the state OR THE DEFENSE HAS CONTACTED the restaurant to talk to the staff."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:18:08+00:00"
+    },
+    {
+      "id": "c03",
+      "quote": "by 10:36, we get another motion on the camera, and the cops have arrived at the home shared by Lance Twigs and Tyler Robinson.",
+      "claim": "Footage shows police at the home shared by Lance Twiggs and Tyler Robinson by 10:36 PM on September 11, 2025.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host; refers to himself as 'your humble host' and 'Baron Coleman')",
+      "start_seconds": 315,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "This claim depends on doorbell-camera footage from a neighbor, which two independent investigators obtained and showed in a livestream. I couldn't check it: my search tools stopped working before I found anything, so I could not look at the footage, its timestamps or any official record of when police got to the apartment. Mainstream reports from the time say Robinson turned himself in at the Washington County Sheriff's Office on the night of September 11, 2025. Charging documents say Twiggs cooperated with investigators. A police visit to the apartment that night is plausible. But I found no public official record of the exact arrival time, so the 10:36 PM time could not be confirmed or ruled out.",
+        "what_is_true": "From reporting I remember but could not recheck, Robinson was taken into custody late on September 11, 2025, and investigators dealt with his roommate Lance Twiggs around then. A police presence at the shared home that night fits that account, but no verified source confirms the 10:36 PM time.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:18:06+00:00"
+    },
+    {
+      "id": "c04",
+      "quote": "she turned it over and no one ever followed up with her. Never contacted by the FBI, never contacted by the Utah State Police, never contacted by the prosecution.",
+      "claim": "The neighbor of Lance Twiggs and Tyler Robinson who had doorbell footage was never contacted by the FBI, the Utah State Police, or the prosecution.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host; refers to himself as 'your humble host' and 'Baron Coleman')",
+      "start_seconds": 315,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "The claim comes only from the host's secondhand account. He says the neighbor told independent investigators Billy Webb and Diligent Denizen that no one followed up with her. I found no independent reporting, court record or law-enforcement statement that confirms or contradicts it. Before the search tool hit its usage limit, I could not find any reporting that identifies this neighbor or her footage. Whether the FBI, Utah authorities or prosecutors ever contacted her can't be verified from public sources. A statement that someone was never contacted is hard to prove, and the investigators may have gathered evidence from that complex in ways not yet made public, such as through discovery that hasn't been released.",
+        "what_is_true": "Independent investigators posted footage they said came from a neighbor's doorbell camera at the condo complex where Tyler Robinson and Lance Twiggs lived. The neighbor reportedly told them that no authorities had followed up with her.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:18:09+00:00"
+    },
+    {
+      "id": "c05",
+      "quote": "They keyed in on Tyler Robinson very early, like within Hours of Tyler Robinson being a potential suspect, being identified as a potential suspect, they keyed in on him and ruled out absolutely everything else and stopped investigating any other avenue.",
+      "claim": "Within hours of identifying Tyler Robinson as a potential suspect, investigators stopped pursuing any other investigative avenues in the Charlie Kirk assassination case.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host; refers to himself as 'your humble host' and 'Baron Coleman')",
+      "start_seconds": 315,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": {
+        "verdict": "Misleading",
+        "confidence": "medium",
+        "explanation": "Investigators did focus on Robinson soon after he was identified, but the claim that they dropped every other line of inquiry within hours doesn't match the public record. Days later, FBI Director Kash Patel testified that the bureau was investigating more than 20 people in a Discord chat with Robinson. He later said investigators were looking into possible accomplices, the location of the shot, the weapon's transport and other questions. Fox News, citing law enforcement sources, reported that agents looked into at least two other early persons of interest. Accounts that some tips, such as a Panguitch restaurant sighting, were never followed up do not show that every other avenue was abandoned. No public evidence was found that it had been.",
+        "what_is_true": "Authorities identified and arrested Robinson within about 33 hours and quickly made him the main suspect. Some people who gave tips say the FBI never contacted them afterward.",
+        "sources": [
+          {
+            "url": "https://abcnews.com/Politics/patel-face-questions-charlie-kirk-investigation-congressional-hearings/story?id=125585288",
+            "title": "",
+            "publisher": "ABC News",
+            "excerpt": "Patel addressed the Discord message during the hearing, saying that the FBI is investigating \"anyone and everyone involved in that Discord chat\" with Robinson."
+          },
+          {
+            "url": "https://abc7.com/post/fbi-director-kash-patel-says-investigating-possibility-accomplices-charlie-kirk-shooting/17865377/",
+            "title": "",
+            "publisher": "ABC7 Los Angeles",
+            "excerpt": "\"We are meticulously investigating theories and questions, including the location from where the shot was taken, the possibility of accomplices, the text message confession and related conversations, Discord chats...\""
+          },
+          {
+            "url": "https://www.foxnews.com/us/fbi-source-pushes-back-report-internal-rift-over-charlie-kirk-case-files",
+            "title": "",
+            "publisher": "Fox News",
+            "excerpt": "They also investigated at least two other early persons of interest, law enforcement sources told Fox News Digital previously."
+          },
+          {
+            "url": "https://www.foxnews.com/us/fbi-investigating-lot-more-than-20-people-discord-chats-suspected-charlie-kirk-assassin",
+            "title": "",
+            "publisher": "Fox News",
+            "excerpt": "FBI Director Kash Patel testifies that the Charlie Kirk assassination investigation has expanded to include people connected to a Discord chatroom."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:18:34+00:00"
+    },
+    {
+      "id": "c06",
+      "quote": "This is 10 hours before the search warrant, 8 to 10 hours before the search warrant would be ultimately Issued.",
+      "claim": "Law enforcement was inside the Twiggs/Robinson home on the night of September 11, 2025, roughly 8–10 hours before a search warrant was issued.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host; refers to himself as 'your humble host' and 'Baron Coleman')",
+      "start_seconds": 1630,
+      "category": "law_courts",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "My web searches failed, so I couldn't check this against court filings, hearing records or news reports. The claim rests on doorbell-camera footage from independent researchers. Coleman says the footage shows a white F-150 and an Expedition outside around 10:36 PM, and he identifies them as Washington County Sheriff's vehicles because they look the same. He infers that officers were inside from lights going on and off and an open door. I found no independent confirmation that the vehicles belonged to the sheriff's office or that officers entered before the warrant. The quote also mixes up 'issued' and 'executed': the 07:18 time he cites is when the warrant was executed. His own figure moves from 10 hours to '8 to 10.' Even if officers did enter, a co-occupant such as Twiggs could have consented to the entry.",
+        "what_is_true": "Coleman's own account of the warrant shows it was executed at 7:18 AM on September 12, 2025. Robinson was widely reported to have turned himself in at the Washington County Sheriff's Office on the night of September 11. I couldn't check either point myself because my searches failed.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:18:36+00:00"
+    },
+    {
+      "id": "c07",
+      "quote": "10:36, the cops show up.",
+      "claim": "Security footage shows Washington County Sheriff's vehicles arriving at the Robinson/Twiggs residence at about 10:36 PM on September 11, before any search warrant was issued.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host; refers to himself as 'your humble host' and 'Baron Coleman')",
+      "start_seconds": 1630,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "I could not check this claim because the search tool reached its usage limit before it returned any results. I did not see the footage or any documents. From the transcript, the evidence comes from independently obtained security video. The speaker says the vehicles are Washington County Sheriff's vehicles because they look like them ('it just looks the same'). He does not cite a plate, a marking or any official record. Even if officers were there before the 7:18 AM warrant was executed, that would not prove an unlawful search: the speaker himself says it 'could not have happened' without Twiggs at home. A resident's consent can permit entry without a warrant. A reviewer should look at this claim.",
+        "what_is_true": "Reporting I'm aware of, though I couldn't check it this time, says Robinson was in custody at the Washington County Sheriff's Office on the night of September 11, 2025. According to the speaker, the search warrant return shows the warrant was executed at 7:18 AM on September 12.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:18:31+00:00"
+    },
+    {
+      "id": "c08",
+      "quote": "he was home with Lance Twigs at 9:21 AM. In fact, they were home all day together until after 5 o'clock.",
+      "claim": "Tyler Robinson and Lance Twiggs were at home together on September 11 from at least 9:21 AM until after 5 PM.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host; refers to himself as 'your humble host' and 'Baron Coleman')",
+      "start_seconds": 1630,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "The claim depends on security-camera footage that independent researchers gave the podcast. According to the host's description, the footage is a series of snapshots taken minutes to an hour apart, and it shows parked cars rather than the people themselves. A car in the driveway does not prove its owner was inside or that no one came and went between frames. The host himself said Twiggs might have come and gone without being caught on camera. I found no court testimony or official record placing both men at home together for that whole period. My web searches failed because of a tool limit, so I could not check the claim further against public sources.",
+        "what_is_true": "Court filings and reporting say Twiggs lived with Robinson and exchanged texts with him on September 10–11, 2025. The podcast's footage, as described, appears to show both cars parked at the home at various times during the day on September 11.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:19:00+00:00"
+    },
+    {
+      "id": "c09",
+      "quote": "it wasn't executed on the 12th day of September at 0718. by Justin Bowen.",
+      "claim": "The search warrant for Tyler Robinson's residence was executed/authorized on September 12 at 7:18 AM by Justin Bowen.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host; refers to himself as 'your humble host' and 'Baron Coleman')",
+      "start_seconds": 1630,
+      "category": "law_courts",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "The speaker said a search warrant he showed on screen was executed or authorized at 07:18 on September 12 by Justin Bowen. I couldn't check this because my search tools hit their usage limit before returning any results. That means I couldn't find the warrant itself, court filings, preliminary-hearing coverage, or news reports confirming the time, date or name. The claim may still be correct, since it appears to come from a document shown on the program, but I have no independent evidence for or against it. A reviewer should compare the published warrant in the Utah court record or the hearing exhibits with the time and signer the speaker gave.",
+        "what_is_true": "The podcast described the document it showed as a search warrant dated September 12 and marked 07:18. I could not independently confirm the time, the date or that Justin Bowen executed or authorized it.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:18:57+00:00"
+    },
+    {
+      "id": "c10",
+      "quote": "At 11:55 PM the night Charlie Kirk passed away, September 10th, there's a police scanner message that goes out that says, we're going to take the caution tape down.",
+      "claim": "A police scanner message at 11:55 PM on September 10 stated the caution tape around the rifle site would be taken down.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host; refers to himself as 'your humble host' and 'Baron Coleman')",
+      "start_seconds": 1630,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "The search tools hit their usage limit before returning any results, so I couldn't check this claim against scanner archives, police records, or news reports. The speaker cites a scanner recording he says he played on earlier shows, but he didn't play it in this episode, and I found no independent source that gives its time or wording. Charging documents and news coverage show the rifle was found in a wooded area near Utah Valley University on September 10, 2025. I couldn't confirm a 11:55 PM message about taking down caution tape, or AP photos of the tape going back up the next morning. A reviewer should check archived Utah County or Orem dispatch audio directly.",
+        "what_is_true": "Officials reported that the rifle was found in a wooded area near the Utah Valley University campus on September 10, 2025. Prosecutors' charging documents describe texts in which Robinson allegedly talked about going back for it that night. I couldn't confirm the scanner message about the caution tape at 11:55 PM.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:18:59+00:00"
+    },
+    {
+      "id": "c11",
+      "quote": "That photo was not public until 9:21 AM. That's the very first time that photo was public.",
+      "claim": "The FBI's photo of the rifle was first made public at 9:21 AM on September 11.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host; refers to himself as 'your humble host' and 'Baron Coleman')",
+      "start_seconds": 1630,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "I found no primary record showing that an FBI photo of the rifle was first posted at 9:21 AM on September 11, 2025. Reporting from that day says the FBI announced at a morning briefing that it had recovered a 'high-powered, bolt-action rifle.' Utah News Dispatch says the FBI posted photos of a 'person of interest' on X shortly before 10 a.m. Other details about the gun, such as its being a Mauser .30-06, came from anonymous sources. The charging documents quote Robinson's text saying 'the feds released a photo of the rifle,' and CNN says this followed police releasing images of the weapon. Neither gives a time. Some searches couldn't be completed, so a reviewer should check this.",
+        "what_is_true": "On the morning of September 11, 2025, the FBI said it had recovered a bolt-action rifle and posted images of a person of interest on X around 10 a.m. Robinson's alleged text refers to the feds releasing a photo of the rifle, but no source I found gives an exact time for that photo's first public release.",
+        "sources": [
+          {
+            "url": "https://utahnewsdispatch.com/2025/09/11/manhunt-for-charlie-kirk-shooter-continues-rifle-found-fbi-says/",
+            "title": "",
+            "publisher": "Utah News Dispatch",
+            "excerpt": "shortly before 10 a.m., Salt Lake City-based FBI officials posted on X asking the public's help to identify a 'person of interest'"
+          },
+          {
+            "url": "https://www.washingtontimes.com/news/2025/sep/11/fbi-shares-photos-charlie-kirk-assassin-suspect/",
+            "title": "",
+            "publisher": "Washington Times",
+            "excerpt": "FBI Special Agent in Charge Robert Bohls said agents found a 'high-powered, bolt-action rifle in a wooded area where the shooter had fled.'"
+          },
+          {
+            "url": "https://www.cnn.com/2025/09/29/us/tyler-robinson-charlie-kirk-court",
+            "title": "",
+            "publisher": "CNN",
+            "excerpt": "When police released images of the weapon, Robinson's father texted his son, asking for a picture of the gun, according to the charging document."
+          },
+          {
+            "url": "https://www.newsweek.com/tyler-robinson-roommate-lance-twiggs-charlie-kirk-texts-2130798",
+            "title": "",
+            "publisher": "Newsweek",
+            "excerpt": "Robinson: My dad wants photos of the rifle... he says grandpa wants to know who has what, the feds released a photo of the rifle, and it is very unique."
+          },
+          {
+            "url": "https://abcnews.com/US/visual-timeline-charlie-kirk-shooting-unfolded/story?id=125478526",
+            "title": "",
+            "publisher": "ABC News",
+            "excerpt": "Sources later told ABC News the weapon discovered is an older model imported Mauser .30-06 caliber bolt action rifle wrapped in a towel."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:19:21+00:00"
+    },
+    {
+      "id": "c12",
+      "quote": "These are the 11 Democrats who missed a vote. Now, this vote failed by 4.",
+      "claim": "Eleven Democrats missed the Hegseth impeachment procedural vote, which failed by four votes.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host; refers to himself as 'your humble host' and 'Baron Coleman')",
+      "start_seconds": 3776,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Mostly accurate",
+        "confidence": "high",
+        "explanation": "Several outlets confirm that 11 House Democrats missed the procedural vote on Thomas Massie's resolution to impeach Hegseth. The vote margin was wrong, though. Republicans' motion to send the resolution to the Judiciary Committee, which effectively killed it, passed 211-204. That is a seven-vote margin, not four. The Hill reported that eight of the missing Democrats would have needed to show up for the impeachment effort to move forward. The speaker said four would have tied the vote and five would have won it. The main point still holds: the 11 absent Democrats were enough to change the result. But the specific numbers he gave were wrong.",
+        "what_is_true": "Eleven Democrats did miss the House vote that sent the Hegseth impeachment resolution to committee, and their absence decided the outcome. The motion passed 211-204, so the margin was seven votes, not four.",
+        "sources": [
+          {
+            "url": "https://abcnews.com/Politics/democrats-missed-crucial-hegseth-impeachment-vote-blamed-traffic/story?id=138053963",
+            "title": "",
+            "publisher": "ABC News",
+            "excerpt": "The GOP referred Republican Rep. Thomas Massie's impeachment resolution against Hegseth to the Judiciary Committee ... with a vote of 211-204."
+          },
+          {
+            "url": "https://thehill.com/homenews/house/6214625-house-democrats-fail-hegseth-measure/",
+            "title": "",
+            "publisher": "The Hill",
+            "excerpt": "The vote was 211-204, but 11 Democrats missed the vote. If eight of those lawmakers had been on the floor, the impeachment effort would have advanced."
+          },
+          {
+            "url": "https://newrepublic.com/post/217861/full-list-11-democrats-missed-hegseth-impeachment-vote-where-they-were-instead",
+            "title": "",
+            "publisher": "The New Republic",
+            "excerpt": "The Hegseth impeachment resolution failed after 11 Democrats didn't show up to vote."
+          },
+          {
+            "url": "https://www.snopes.com/news/2026/11/13/democrats-missed-hegseth-vote-aipac/",
+            "title": "",
+            "publisher": "Snopes",
+            "excerpt": "The effort to impeach Defense Secretary Pete Hegseth failed in a 211-204 [vote]"
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:19:39+00:00"
+    }
+  ],
+  "cost_usd": 6.0005,
+  "updated_at": "2026-11-19T22:19:39+00:00"
+}

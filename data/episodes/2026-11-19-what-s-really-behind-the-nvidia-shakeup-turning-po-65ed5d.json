@@ -1,0 +1,431 @@
+{
+  "episode": {
+    "id": "2026-11-19-what-s-really-behind-the-nvidia-shakeup-turning-po-65ed5d",
+    "title": "What’s Really Behind The Nvidia Shakeup & Turning Point’s Missing Paychecks | Ep 415",
+    "published": "2026-11-19",
+    "audio_url": "https://pscrb.fm/rss/p/traffic.megaphone.fm/GEORGETOMINC5874253217.mp3",
+    "link": "",
+    "duration_seconds": 4617,
+    "description": "We look into what is really behind the shakeup at Nvidia, Turning Point gets in trouble for not paying it's workers, and there's a secret, paid right-wing influencer operation going on we need to talk about. \n\n00:00 - Start. \n00:58 - The secret right-wing influencer campaign. \n25:18 - What's behind the Nvidia shakeup. \n\n57:56 - Turning point stiffs their workers. \n\n01:07:11 - Comments. \n\nTax Network USA \nDo not wait for another IRS letter or a frozen bank account. Call 866-686-1651 or visit http://tnusa.com/candace&nbsp;\n\nNimi Skincare​​       ​\nGet 10% off your order with promo code BARON at http://www.NimiSkincare.com\n\nKeet​ \nGo visit https://keet.io/CandaceOwens - Download it free and invite the one person you talk to most. And while you’re there - join my private group: https://bit.ly/Keet-Chat-Candace  \n\nLean​ \nGet 30% off your order with promo code BFCM30 at\nhttp://www.TakeLean.com\nDisclaimer: These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease. LEAN should be used alongside a healthy diet and exercise routine. \n\n\nCandace Clips Channel: https://www.youtube.com/@ClipsCandaceOwens\nCandace Official Website: https://candaceowens.com\nCandace Merch: https://shop.candaceowens.com\nCandace on Apple Podcasts: https://t.co/Pp5VZiLXbq\nCandace on Spotify: https://t.co/16pMuADXuT\nCandace on Rumble: https://rumble.com/c/RealCandaceO\nCandace en Español: https://www.youtube.com/@CandaceOwensEnEspanol\nCandace Owens em Português: https://www.youtube.com/@CandaceOwensemPortugues\nCandace Owens en Français: https://www.youtube.com/@CandaceOwensEnFrançais\nLearn more about your ad choices. Visit megaphone.fm/adchoices"
+  },
+  "status": "verified",
+  "claims": [
+    {
+      "id": "c01",
+      "quote": "They uncovered a covert right-wing influence operation to promote Nvidia chip sales to China.",
+      "claim": "The Midas Project published an X thread alleging a covert right-wing influencer operation promoting Nvidia chip sales to China.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host, names himself in the segment)",
+      "start_seconds": 0,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "The Midas Project, an AI watchdog, posted an X thread around November 16, 2026. It opened by saying it had \"uncovered a covert influence operation using right-wing creators to promote Nvidia chip sales to China.\" The thread traced Bitly links that redirected through mycreator.studio to the marketing firm Urban Legend and described about 14 million combined followers. Cybernews, Yahoo and Gadget Review covered it, and Gary Marcus shared it. Coleman describes the thread accurately. Listeners should know two things, though: these are the watchdog's allegations, and both the Midas Project and later reporting said there was no conclusive evidence that Nvidia itself paid for the campaigns.",
+        "what_is_true": "In mid-November 2026, the Midas Project published an X thread alleging a covert campaign in which right-wing influencers promoted Nvidia H200 chip sales to China. It linked the campaign to the marketing firm Urban Legend. Who ultimately paid for it, and whether Nvidia was involved, remains unconfirmed.",
+        "sources": [
+          {
+            "url": "https://x.com/TheMidasProj/status/2122347323380683100",
+            "title": "",
+            "publisher": "The Midas Project (X)",
+            "excerpt": "🚨NEW: We just uncovered a covert influence operation using right-wing creators to promote Nvidia chip sales to China."
+          },
+          {
+            "url": "https://x.com/TheMidasProj/status/2122347141050028302",
+            "title": "",
+            "publisher": "The Midas Project (X)",
+            "excerpt": "Who paid right-wing influencers to promote Nvidia chip sales to China? ... There's no conclusive link between Nvidia and these campaigns."
+          },
+          {
+            "url": "https://cybernews.com/news/influencer-campaign-nvidia-chip-sales-china/",
+            "title": "",
+            "publisher": "Cybernews",
+            "excerpt": "The Midas Project says influencer links pointed to campaigns tied to dark-money AI groups and Urban Legend... There's no conclusive link between Nvidia and these campaigns, of course."
+          },
+          {
+            "url": "https://www.techmeme.com/261116/p52",
+            "title": "",
+            "publisher": "Techmeme (quoting Gary Marcus)",
+            "excerpt": "a covert right-wing influence operating promoting selling Nvidia chips to China. long thread from Midas Project"
+          },
+          {
+            "url": "https://www.gadgetreview.com/who-paid-influencers-to-push-pro-nvidia-narratives-online",
+            "title": "",
+            "publisher": "Gadget Review",
+            "excerpt": "The Midas Project investigation found no conclusive evidence that Nvidia paid Urban Legend, the participating influencers, or the publishers"
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:13:06+00:00"
+    },
+    {
+      "id": "c02",
+      "quote": "They even found campaigns shared by really high-profile people like the namesake son of the President of the United States, Donald J. Trump Jr., and Kash Patel, the current head of the FBI. Uh, Trump Jr. was caught posting tracked links over 150 times.",
+      "claim": "The Midas Project found Donald Trump Jr. and FBI Director Kash Patel shared tracked campaign links, with Trump Jr. posting tracked links over 150 times.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host, names himself in the segment)",
+      "start_seconds": 0,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "I couldn't verify this claim. My web searches failed with a tool-limit error, so I found no Midas Project report, thread or database and no news coverage confirming that Donald Trump Jr. or Kash Patel shared tracked campaign links. I also found nothing confirming the figure of more than 150 tracked links from Trump Jr. Later in the same segment, the speaker says Trump Jr. shared links in 121 campaigns. That doesn't necessarily contradict 150 links, because one campaign can include several posts, but it can't be checked either. A reviewer should check the Midas Project's published materials directly. They should also confirm whether Patel's posts came before or after he became FBI director.",
+        "what_is_true": "The speaker presents this as a Midas Project finding, and a group by that name published research on AI-industry advocacy. I couldn't confirm the specific findings about Trump Jr., Patel or the 150 links.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:13:05+00:00"
+    },
+    {
+      "id": "c03",
+      "quote": "We get this headline in the New York Times back on October 29th. This is the first report about Alice Wong, Nvidia chief seen as target of Chinese spy plot.",
+      "claim": "On October 29, the New York Times first reported that Nvidia CEO Jensen Huang was seen as the target of a Chinese spy plot involving a businesswoman named Alice Wong.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host, names himself in the segment)",
+      "start_seconds": 0,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "The New York Times published a story on October 29, 2026, under the headline \"Nvidia Chief Seen as Target of Chinese Spy Plot.\" It reported U.S. officials' conclusion that a Megaspeed executive close to Jensen Huang was passing intelligence to Beijing. Other outlets, including ABC, CNBC, AFP and Axios, treat this Times report as the start of the story. One correction: the businesswoman's name is Alice Huang, not \"Alice Wong.\" The automatic transcript also has the speaker saying \"Ms. Huang,\" so \"Wong\" may be a transcription error. Either way, the name doesn't change the substance of the claim.",
+        "what_is_true": "On October 29, 2026, the New York Times first reported that U.S. officials saw Nvidia CEO Jensen Huang as the target of a Chinese spy plot. The plot involved Alice Huang, a Megaspeed executive who had a close relationship with him.",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Jensen_Huang_spying_scandal",
+            "title": "",
+            "publisher": "Wikipedia",
+            "excerpt": "On October 29, 2026, The New York Times reported that Jensen Huang, the co-founder and CEO of Nvidia, had been the target of a spy plot involving the government of China"
+          },
+          {
+            "url": "https://www.japantimes.co.jp/news/2026/10/30/world/nvidia-chief-spy-plot-target/",
+            "title": "",
+            "publisher": "The Japan Times (NYT syndication)",
+            "excerpt": "Nvidia chief seen as target of Chinese spy plot ... U.S. officials had concluded that she was a Chinese intelligence asset, funneling information to Beijing."
+          },
+          {
+            "url": "https://france24.com/en/live-news/20261117-ai-and-spies-a-timeline-of-the-nvidia-scandal",
+            "title": "",
+            "publisher": "France 24 / AFP",
+            "excerpt": "October 29: The report - The New York Times reports that Nvidia chief executive and co-founder Jensen Huang was the target of a Chinese spy plot."
+          },
+          {
+            "url": "https://abcnews.com/US/nvidia-responds-report-ceo-allegedly-targeted-chinese-spy/story?id=137704250",
+            "title": "",
+            "publisher": "ABC News",
+            "excerpt": "The executive was identified by the Times as Alice Huang, who was pictured together with the Nvidia CEO in 2024."
+          },
+          {
+            "url": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
+            "title": "",
+            "publisher": "CNBC",
+            "excerpt": "An Nvidia spokesperson on Thursday pushed back on a New York Times report that detailed American intelligence agencies surveilling a person close to CEO Jensen Huang"
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:13:13+00:00"
+    },
+    {
+      "id": "c04",
+      "quote": "November 6th, about a week, give or take, later. We have this headline in the New York Times, China's top spy agency recruited woman who targeted Jensen Huang.",
+      "claim": "On November 6, the New York Times reported that US intelligence concluded China's Ministry of State Security recruited the woman who targeted Jensen Huang.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host, names himself in the segment)",
+      "start_seconds": 0,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "medium",
+        "explanation": "Syndicated copies and summaries show a New York Times story with nearly the same headline as the one Coleman quoted. It reported that US officials believe Alice Huang, a Megaspeed executive, was recruited by China's Ministry of State Security. Bloomberg covered the NYT report on November 7, and CNBC has a related video dated November 6, which fits Coleman's November 6 date. However, I couldn't open the NYT original to confirm its exact publication time. The reporting cites a classified US memo describing an intelligence assessment. That memo is a claim by US officials, not a proven fact. Coleman frames it the same way ('US intelligence here, according to the New York Times, has concluded'). The transcript's 'Alice Wong' is likely a transcription error for Alice Huang.",
+        "what_is_true": "Around November 6–7, 2026, the New York Times reported that US intelligence officials believe Alice Huang, who had a relationship with Jensen Huang, was an asset recruited by China's Ministry of State Security. Partner outlets ran the story under the headline 'China's top spy agency recruited woman who targeted Nvidia chief executive Jensen Huang.'",
+        "sources": [
+          {
+            "url": "https://ground.news/article/chinese-spy-who-targeted-jensen-huang-worked-directly-for-chinas-top-spy-agency-nyt_a84acc",
+            "title": "",
+            "publisher": "Ground News (aggregating Japan Times/NYT)",
+            "excerpt": "Alice Huang, a Chinese executive who developed a relationship with Nvidia's leader, is believed to be an asset of the Ministry of State Security."
+          },
+          {
+            "url": "https://www.bloomberg.com/news/articles/2026-11-07/us-believes-woman-close-to-nvidia-ceo-was-a-china-spy-nyt-says",
+            "title": "",
+            "publisher": "Bloomberg",
+            "excerpt": "Headline/URL (Nov 7, 2026): US believes woman close to Nvidia CEO was a China spy, NYT says"
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:13:35+00:00"
+    },
+    {
+      "id": "c05",
+      "quote": "This was a service run out of Latvia, and they would offer payments, a couple of hundred bucks, maybe $300, $400 for every million views or so.",
+      "claim": "The Atlantic reported that a social-media clipping service run out of Latvia paid roughly $300–$400 per million views for posts designed to look like grassroots Republican support.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host, names himself in the segment)",
+      "start_seconds": 0,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": {
+        "verdict": "Mostly accurate",
+        "confidence": "high",
+        "explanation": "The Atlantic published Ali Breland's article \"Inside a Conservative Operation to Hijack Your Social-Media Feed\" around September 2, 2026. It described ClipIt, a service run from Riga, Latvia. Its \"Elephant Clipping\" campaign paid people for clips designed to look like grassroots GOP support. The speaker got the outlet, the location and the purpose right. The pay rate was slightly off. According to excerpts quoted by several outlets, the article said every 1 million views earned a $300 payout, from a campaign budget of $300,000 a month. Coleman's hedged range of \"a couple of hundred bucks, maybe $300, $400\" includes the correct figure, but none of the coverage reviewed mentions $400. That doesn't change his point.",
+        "what_is_true": "In early September 2026, The Atlantic reported that ClipIt, a Latvia-based clipping service, paid people to post pro-Republican clips designed to look like grassroots GOP support. The reported rate was $300 per million views.",
+        "sources": [
+          {
+            "url": "https://www.resetera.com/threads/the-atlantic-inside-a-conservative-operation-to-hijack-your-social-media-feed.1621630/",
+            "title": "",
+            "publisher": "ResetEra (quoting The Atlantic)",
+            "excerpt": "Clippers are paid a proportionate share of the campaign's monthly budget of $300,000. Every 1 million views yields a $300 payout."
+          },
+          {
+            "url": "https://atdawncampaigns.substack.com/p/republicans-are-buying-billions-of",
+            "title": "",
+            "publisher": "At Dawn Campaigns (Substack)",
+            "excerpt": "A Latvian clip farm is offering payment for social-media videos designed to look like grassroots GOP support, Ali Breland reports... These campaigns pay clippers $300 per million views."
+          },
+          {
+            "url": "https://www.petertheil.com/159716/",
+            "title": "",
+            "publisher": "Reposting of The Atlantic article",
+            "excerpt": "A service run from Latvia offers payment for short, social-media-friendly clips designed to look like grassroots GOP support."
+          },
+          {
+            "url": "https://theleahfiles.substack.com/p/follow-the-money-the-people-who-bought",
+            "title": "",
+            "publisher": "The Leah Files (Substack)",
+            "excerpt": "In September, The Atlantic's Ali Breland got inside one of ClipIt's political campaigns, called Elephant Clipping. It ran on a budget of $300,000 a month at about $300 per million views."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:13:36+00:00"
+    },
+    {
+      "id": "c06",
+      "quote": "They have 14 million combined followers, these right-wing influencers. They posted in the 2 weeks after the US approved a certain type of chip sale to China, this H200 chip.",
+      "claim": "According to the Midas Project, right-wing influencers with 14 million combined followers posted in the two weeks after the US approved sales of Nvidia's H200 chip to China.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host, names himself in the segment)",
+      "start_seconds": 0,
+      "category": "current_events",
+      "checkworthiness": 4,
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "The Midas Project published an X thread on November 16, 2026 that says almost exactly what Coleman reported. It states that the influencers have 14 million combined followers and that all of them posted in the two weeks after the US approved H200 sales to China. Coleman attributes the figure to the Midas Project and repeats it correctly. Other outlets, including Cybernews and Yahoo News, reported the same investigation. That coverage notes the posts were likely paid, though the ultimate funder has not been established. This check only confirms that the Midas Project made the statement. It does not independently verify the follower count.",
+        "what_is_true": "The Midas Project's November 16, 2026 thread says the right-wing influencers promoting Nvidia chip sales had 14 million combined followers and all posted in the two weeks after the US approved H200 sales to China.",
+        "sources": [
+          {
+            "url": "https://x.com/TheMidasProj/status/2122347323380683100",
+            "title": "",
+            "publisher": "The Midas Project (X)",
+            "excerpt": "These influencers have 14 million combined followers, and all posted in the two weeks after the US approved H200 sales to China."
+          },
+          {
+            "url": "https://cybernews.com/news/influencer-campaign-nvidia-chip-sales-china/",
+            "title": "",
+            "publisher": "Cybernews",
+            "excerpt": "A watchdog says over 80 right-wing influencers likely promoted pro-AI industry posts without clear sponsorship disclosures."
+          },
+          {
+            "url": "https://www.yahoo.com/news/politics/articles/paid-influencers-push-pro-nvidia-190810289.html",
+            "title": "",
+            "publisher": "Yahoo News",
+            "excerpt": "The posts promoted narratives favorable to Nvidia, including arguments supporting the sale of Nvidia H200 chips to China."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:13:28+00:00"
+    },
+    {
+      "id": "c07",
+      "quote": "this is the announcement that Jensen Huang has resigned. This, this, this, this is more, this is November 12th now.",
+      "claim": "Jensen Huang resigned as Nvidia CEO on November 12.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host, names himself in the segment)",
+      "start_seconds": 1880,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "I couldn't check this claim. My web searches failed because of a tool usage limit, so I had no access to news coverage, Nvidia press releases or SEC filings from November 2026. The reported events (New York Times stories about Alice Wong, an apology letter from Huang, and a resignation on November 12, 2026) all come after the period my own knowledge covers. As far as I know, Jensen Huang was still Nvidia's CEO, but that knowledge doesn't reach the episode date. The claim isn't confirmed or ruled out. A reviewer should check Nvidia investor relations, SEC Form 8-K filings, and Reuters or New York Times reporting from around November 12, 2026.",
+        "what_is_true": "Jensen Huang co-founded Nvidia and has led it as CEO for a long time. I found no evidence either way on whether he resigned on November 12, 2026.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:13:34+00:00"
+    },
+    {
+      "id": "c08",
+      "quote": "So they get rid of Jensen Huang, and they replace him with a temporary CEO",
+      "claim": "Jensen Huang left his position as Nvidia CEO and was replaced by a temporary CEO.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host, names himself in the segment)",
+      "start_seconds": 2545,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "The search tools hit their usage limit before returning any results, so I couldn't check this claim against news reports, Nvidia filings or the headlines the speaker showed on screen. As far as I know, Jensen Huang has been Nvidia's CEO since he co-founded the company in 1993, but the episode is dated November 2026, which is later than anything I can confirm. On the show, the speaker cites a headline he attributes to Haaretz saying Huang resigned, and says Nvidia stopped chip sales to China. I couldn't verify either point, or whether an interim CEO was named. A reviewer should check Nvidia's SEC filings (Form 8-K) and press releases from November 2026.",
+        "what_is_true": "I couldn't confirm anything here because no searches went through. The only certain point is that Huang led Nvidia as CEO for decades before the period the episode covers.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:13:51+00:00"
+    },
+    {
+      "id": "c09",
+      "quote": "all of this side of Trump's cabinet is pushing on Howard Lutnick to add Jensen Huang's customer at Megaspeed to the entity list. And Howard Lutnick is not going to add them.",
+      "claim": "Bessent, Rubio, and Hegseth pushed Commerce Secretary Howard Lutnick to add Nvidia customer Megaspeed to the Entity List, and Lutnick declined.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host, names himself in the segment)",
+      "start_seconds": 2545,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Mostly accurate",
+        "confidence": "medium",
+        "explanation": "Reporting from mid-November 2026 broadly supports the claim. On CNBC, Treasury Secretary Bessent said Treasury, War, USTR and State had wanted Megaspeed on the Entity List \"for months,\" but that Commerce's Bureau of Industry and Security controls the list. Axios reported that Bessent confronted Lutnick about it in the Situation Room. CEPA reported that Rubio sent Lutnick a memo on Megaspeed in May 2026. Two details are less certain. Hegseth's role comes only from Bessent naming the War Department, not from any action shown by Hegseth himself. And there is no record of Lutnick explicitly refusing. Commerce simply had not listed Megaspeed, and Lutnick reportedly said he would \"look into it.\" The speaker's line that Lutnick \"is not going to add them\" is a prediction.",
+        "what_is_true": "Treasury, State, War and USTR favored adding Megaspeed to the Entity List, and Bessent and Rubio pressed Lutnick directly. As of mid-November 2026, Lutnick's Commerce Department, which controls the list, had not added Megaspeed.",
+        "sources": [
+          {
+            "url": "https://www.axios.com/2026/11/11/bessent-lutnick-megaspeed-nvidia-china-chips",
+            "title": "",
+            "publisher": "Axios",
+            "excerpt": "Bessent pressed Lutnick on why Megaspeed had not been added to the Commerce Department's entity list, to which Lutnick responded he would \"look into…"
+          },
+          {
+            "url": "https://www.washingtonexaminer.com/news/business/4802617/scott-bessent-treasury-wanted-megaspeed-entity-blacklist/",
+            "title": "",
+            "publisher": "Washington Examiner",
+            "excerpt": "Bessent said the U.S. Trade Representative and the Treasury, War, and State departments were \"in favor of putting Megaspeed on the entity list for months.\" However, he noted, the Commerce Department \"has the pen.\""
+          },
+          {
+            "url": "https://cepa.org/article/the-nvidia-scandal-exposes-american-blind-spots/",
+            "title": "",
+            "publisher": "CEPA",
+            "excerpt": "Officials pressed Commerce to act, and Secretary of State Marco Rubio sent Commerce Secretary Howard Lutnick a memorandum on Megaspeed in May 2026."
+          },
+          {
+            "url": "https://thehill.com/policy/technology/6219334-commerce-secretary-scrutiny-megaspeed-nvidia-scandal/",
+            "title": "",
+            "publisher": "The Hill",
+            "excerpt": "Bessent said he and Deputy Treasury Secretary Francis Brooke have \"been pushing\" for the Commerce Department to add Megaspeed to the entity list \"for months.\""
+          },
+          {
+            "url": "https://www.ibtimes.co.uk/bessent-lutnick-megaspeed-entity-list-chip-diversions-1831727",
+            "title": "",
+            "publisher": "IBTimes UK",
+            "excerpt": "Megaspeed remains outside the Entity List despite proposals from other US agencies to restrict its access to American technology."
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:14:11+00:00"
+    },
+    {
+      "id": "c10",
+      "quote": "Nvidia a trillion dollars of Nvidia market cap.",
+      "claim": "Nvidia lost about $1 trillion in market capitalization during the recent controversy over its chip sales.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host, names himself in the segment)",
+      "start_seconds": 2545,
+      "category": "economics",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "I couldn't check this claim. The search tool hit its usage limit before it returned any results, so I found no market data or news reports on how much Nvidia's market value changed during the reported Megaspeed controversy, Jensen Huang's reported resignation or the halt to chip sales to China, all described as happening around November 2026. The speaker gives the roughly $1 trillion figure without a source and also blames it on a broader 'AI crash,' so it isn't clear how much of any drop came from the controversy. A reviewer should compare Nvidia's market value before and after the events using dated stock-price data.",
+        "what_is_true": "Nvidia has been one of the world's most valuable companies, worth several trillion dollars. A fall of about $1 trillion is therefore possible, but I couldn't confirm that it happened or what caused it.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:13:59+00:00"
+    },
+    {
+      "id": "c11",
+      "quote": "When he was asked last week about US government's failure to sanction Megaspeed, Mr. Bessant, again on this side, Mr. Bessant took the unusual step of declaring that he and other officials had long been pushing for action and placed blame on Mr. Lutnick.",
+      "claim": "When asked about the U.S. government's failure to sanction Megaspeed, Scott Bessent said he and other officials had long pushed for action and blamed Howard Lutnick.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host, names himself in the segment)",
+      "start_seconds": 2545,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Accurate",
+        "confidence": "high",
+        "explanation": "Several outlets report that in a CNBC interview on Friday, November 13, 2026, Treasury Secretary Scott Bessent was asked why Megaspeed had not been put on the entity list. He said Treasury, War, USTR and State had favored listing it \"for months.\" He also said he and Deputy Treasury Secretary Francis Brooke had been pushing Commerce to act, but that \"Commerce has the pen.\" CNN, The Hill and The New Republic described this as Bessent placing the blame on Howard Lutnick's department. That fits the speaker's summary, which he read from a news article published about three days after the interview. Axios and CNN had also reported that Bessent confronted Lutnick about Megaspeed earlier in the month.",
+        "what_is_true": "In a CNBC interview, Bessent said several agencies had wanted Megaspeed on the entity list for months and that he and his deputy had been pushing Commerce. He said the decision belonged to Commerce, which reporters widely read as blaming Lutnick.",
+        "sources": [
+          {
+            "url": "https://www.cnn.com/2026/11/13/politics/bessent-lutnick-nvidia-megaspeed-blame",
+            "title": "",
+            "publisher": "CNN",
+            "excerpt": "He said it was the Commerce Department, led by Lutnick, that had failed the follow through."
+          },
+          {
+            "url": "https://thehill.com/policy/technology/6219334-commerce-secretary-scrutiny-megaspeed-nvidia-scandal/",
+            "title": "",
+            "publisher": "The Hill",
+            "excerpt": "During his CNBC interview Friday, Bessent said he and Deputy Treasury Secretary Francis Brooke have \"been pushing\" for the Commerce Department to add Megaspeed to the entity list \"for months.\""
+          },
+          {
+            "url": "https://newrepublic.com/post/217973/bessent-blames-lutnick-bus-nvidia-chips-scandal",
+            "title": "",
+            "publisher": "The New Republic",
+            "excerpt": "They were in favor of putting Megaspeed on the entity list for months. But Commerce has the pen,\" Bessent replied."
+          },
+          {
+            "url": "https://www.axios.com/2026/11/11/bessent-lutnick-megaspeed-nvidia-china-chips",
+            "title": "",
+            "publisher": "Axios",
+            "excerpt": "Bessent pressed Lutnick on why Megaspeed had not been added to the Commerce Department's entity list"
+          }
+        ]
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:13:59+00:00"
+    },
+    {
+      "id": "c12",
+      "quote": "Nvidia has halted the chip sales to China. So they get rid of Jensen Huang, and they replace him with a temporary CEO",
+      "claim": "Nvidia halted chip sales to China and replaced Jensen Huang with a temporary CEO.",
+      "speaker": "A",
+      "speaker_name": "Baron Coleman (guest host, names himself in the segment)",
+      "start_seconds": 2545,
+      "category": "current_events",
+      "checkworthiness": 5,
+      "verification": {
+        "verdict": "Unsupported",
+        "confidence": "low",
+        "explanation": "I couldn't do any research because the search tool failed before it returned results. I found no evidence either way on whether Nvidia stopped chip sales to China or whether Jensen Huang was removed and replaced with a temporary CEO around November 2026. As of my last reliable information, Huang was still Nvidia's CEO, and I know of no report that he resigned or that an interim CEO was named. This event would be after that information, though, so I can't call the claim false. The speaker mentions headlines from Haaretz and other outlets, but I couldn't check them. A reviewer should look at Nvidia's SEC filings and press releases and at major outlets such as Reuters, Bloomberg and the NYT for November 2026.",
+        "what_is_true": "Reporting from 2025 described a public rivalry between Treasury Secretary Bessent and Commerce Secretary Lutnick and US scrutiny of Nvidia chip exports to China. I couldn't verify whether Nvidia halted China sales or whether Huang was replaced.",
+        "sources": []
+      },
+      "error": null,
+      "model": "claude-opus-5-5",
+      "checked_at": "2026-11-19T22:14:15+00:00"
+    }
+  ],
+  "cost_usd": 5.9709,
+  "updated_at": "2026-11-19T22:14:15+00:00"
+}
